@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/ivo/programming/assembler/p0b10",
+            "binaryPath": "/home/ivo/programming/assembler/p0b10/c-main",
+            "binaryArgs": []
+        }
+    ]
+}
