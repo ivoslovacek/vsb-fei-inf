@@ -4,8 +4,16 @@ Repozitář sloužící k uchování probíraných věcí.
 
 ## Předměty
 
-- ALG I
-- APPS
-- FPR
-- OOP
-- UPR
+- První semestr
+    - FPR
+    - UPR
+
+- Druhý semestr
+    - ALG I
+    - APPS
+    - OOP
+
+- Třetí semestr
+    - ALG II
+    - C# I
+    - POS
