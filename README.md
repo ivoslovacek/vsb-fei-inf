@@ -15,5 +15,6 @@ Repozitář sloužící k uchování probíraných věcí.
 
 - Třetí semestr
     - ALG II
+    - DS I
     - C# I
     - POS
