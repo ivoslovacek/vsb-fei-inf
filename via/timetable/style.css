@@ -1,0 +1,73 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+#time {
+    margin: 1rem 0;
+}
+
+.zbytek {
+    background-color: #969696;
+    color: #fff
+}
+
+.prednaska {
+    background-color: #fa8078;
+    opacity: 0.4;
+}
+
+.cviceni {
+    background-color: #6fade3;
+    opacity: 0.4;
+}
+
+.highlighted {
+    opacity: 1;
+}
+
+.prednaska.highlighted:hover {
+    background: #ff4033;
+    color: #fff;
+}
+
+.cviceni.highlighted:hover {
+    background: #0e87ed;
+    color: #fff;
+}
+
+#timeStamp {
+    border-left: 2px solid red;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+}
+
+#timeHead {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+dialog {
+    width: 50vw;
+    height: 50vh;
+}
+
+dialog textarea {
+    position: relative; 
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 90%;
+}
+
+dialog::backdrop {
+    backdrop-filter: blur(3px);
+}

@@ -1,0 +1,43 @@
+.todo-list {
+    display: grid;
+    max-width: 20rem;
+    max-height: 25rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 2rem 0rem;
+}
+
+.todo-list-entry {
+    grid-row: span auto;
+    display: grid;
+    grid-template-rows: 3;
+    grid-template-columns: 1;
+    max-width: 15rem;
+    min-width: 15rem; 
+    gap: 0.5rem;
+}
+
+.todo-list-entry #todo-header {
+    resize: none;
+    grid-row: 1;
+}
+
+.todo-list-entry #todo-desc {
+    resize: none;
+    grid-row: 2;
+    height: 20rem;
+}
+
+.todo-list-entry #todo-save {
+    grid-row: 3;
+}
+
+.todoTemplate {
+    grid-column: 2;
+    grid-template-columns: 2;
+    display: grid;
+    max-width: 15rem;
+    width: 15rem;
+    max-height: 25rem;
+}
