@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="style.css">
 
 <head>
-    <title> Rozvrh </title>
+    <title> TODO - List </title>
 </head>
 
 <script src="main.js"></script>
@@ -15,11 +15,17 @@
             <button id="todo-save">Save</button>
         </div>
 
-        <div class="todoTemplate">
-            <div id="todo-item-head">Head</div>
-            <span id="todo-item-desc">desc</span>
-            <button id="todo-item-delete">delete</button>
+        <div class="todo-container">
+        </div>
+    </div>
+
+    <div class="todoTemplate" id="template">
+        <span id="todo-item-head">Head</span>
+        <hr>
+        <span id="todo-item-desc">desc</span>
+        <div class="todo-items-buttons">
             <button id="todo-item-edit">edit</button>
+            <button id="todo-item-delete">delete</button>
         </div>
     </div>
 </body>
