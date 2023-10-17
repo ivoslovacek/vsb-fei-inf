@@ -1,0 +1,3 @@
+[submodule "upr/projekt"]
+	path = upr/projekt
+	url = git@github.com:ivoslovacek/arcade-breakout.git
