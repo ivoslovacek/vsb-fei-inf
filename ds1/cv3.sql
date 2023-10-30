@@ -1,5 +1,3 @@
-use SLO0168
-
 select rating, length, count(*)
 from film
 group by rating, length
