@@ -2,15 +2,24 @@
 #include <iostream>
 #include <iterator>
 #include <memory>
+#include <algorithm>
 
-Node::Node(bool leaf)
+Node::Node(std::shared_ptr<Node> parent, bool leaf)
 {
+    if (parent == nullptr)
+    {
+        this->m_parent = std::nullopt;
+    }
+    else
+    {
+        this->m_parent = parent;
+    }
     this->m_leaf = leaf;
 }
 
 BTree::BTree(int n)
 {
-    this->m_root = std::make_shared<Node>(true);
+    this->m_root = nullptr;
     this->m_n = n;
 }
 
@@ -42,144 +51,153 @@ bool BTree::search(int number)
 
 void BTree::add(int number)
 {
-    std::shared_ptr<Node> root = this->m_root;
-
-    std::cout << "Adding " << number << std::endl;
-
-    if (this->m_root->m_keys.size() == 2 * this->m_n)
+    if (this->m_root == nullptr)
     {
-        std::shared_ptr<Node> new_root = std::make_shared<Node>();
-        this->m_root = new_root;
-
-        new_root->m_children.insert(new_root->m_children.begin(), root);
-
-        new_root->m_children[0]->m_keys.push_back(number);
-
-        this->split_child(new_root, 0);
-        this->add_non_full(new_root, number);
+        this->m_root = std::make_shared<Node>(nullptr, true);
+        this->m_root->m_keys.push_back(number);
     }
     else
     {
-        this->add_non_full(root, number);
+        if (this->m_root->m_keys.size() == 2 * this->m_n)
+        {
+            std::shared_ptr<Node> parent = std::make_shared<Node>(this->m_root);
+            this->m_root->m_parent = parent;
+            parent->m_children.push_back(this->m_root);
+            this->m_root = parent;
+
+            number = split_child(this->m_root, 0, number);
+
+            this->m_root->m_keys.push_back(number);
+        }
+        else
+        {
+            this->add_non_full(this->m_root, number);
+        }
     }
 }
 
 void BTree::add_non_full(std::shared_ptr<Node> root, int number)
 {
-    if (root->m_keys.size() == 0)
-    {
-        root->m_keys.push_back(number);
-        return;
-    }
-
     if (root->m_leaf)
     {
-        root->m_keys.push_back(root->m_keys.back());
-
-        auto it = std::prev(root->m_keys.rend());
-        for (; it != root->m_keys.rbegin() && number < *it; it++)
-        {
-            *std::prev(it) = *it;
-        }
-
-        *std::prev(it) = number;
+        root->m_keys.push_back(number);
+        std::sort(root->m_keys.begin(), root->m_keys.end());
     }
     else
     {
         int i = root->m_keys.size() - 1;
 
-        while (i >= 0 && number < root->m_keys[i])
+        for (; i >= 0; i--)
         {
-            i--;
-        }
-
-        std::cout << "child index" << i << std::endl;
-
-        if (i >= 0)
-        {
-            if (root->m_children[i]->m_keys.size() == 2 * this->m_n)
+            if (number > root->m_keys[i])
             {
-                this->split_child(root, i);
+                break;
+            }
+        }
+        i++;
 
-                if (number > root->m_keys[i])
+        if (root->m_children[i]->m_keys.size() == 2 * this->m_n)
+        {
+            while (true)
+            {
+                number = split_child(root, i, number);
+
+                root->m_keys.push_back(number);
+                std::sort(root->m_keys.begin(), root->m_keys.end());
+
+                if (root->m_keys.size() > 2 * this->m_n)
                 {
-                    i++;
+                    if (!root->m_parent.has_value())
+                    {
+                        std::shared_ptr<Node> parent = std::make_shared<Node>();
+                        root->m_parent = parent;
+                        parent->m_children.push_back(root);
+                        root = parent;
+
+                        number = split_child(root, 0, number);
+
+                        root->m_keys.push_back(number);
+
+                        break;
+                    }
+
+                    std::shared_ptr<Node> parent = root->m_parent.value().lock();
+                    if (parent->m_children.size() == 0)
+                    {
+                        return;
+                    }
+
+                    int i = 0;
+                    for (; i < parent->m_children.size(); i++)
+                    {
+                        if (parent->m_children[i] == root)
+                        {
+                            break;
+                        }
+                    }
+
+                    root = parent;
+
+                    std::cout << root << std::endl;
+                    std::cout << i;
+                }
+                else
+                {
+                    return;
                 }
             }
-
-            this->add_non_full(root->m_children[i], number);
+        }
+        else
+        {
+            add_non_full(root->m_children[i], number);
         }
     }
 }
 
-void BTree::split_child(std::shared_ptr<Node> root, int index)
+int BTree::split_child(std::shared_ptr<Node> root, int index, int number)
 {
     std::shared_ptr<Node> child = root->m_children[index];
+    std::shared_ptr<Node> new_child = std::make_shared<Node>(root, child->m_leaf);
 
-    for (auto each : child->m_keys)
-    {
-        std::cout << "Key: " << each << std::endl;
-    }
+    child->m_keys.push_back(number);
+    std::sort(child->m_keys.begin(), child->m_keys.end());
 
-    std::shared_ptr<Node> new_child = std::make_shared<Node>(child->m_leaf);
-    root->m_children.push_back(new_child);
+    int half_index = child->m_keys.size() / 2;
+    int half_number = child->m_keys[half_index];
 
-    {
-        auto half_it = child->m_keys.begin();
-        std::advance(half_it, child->m_keys.size() / 2);
+    new_child->m_keys.insert(new_child->m_keys.begin(), child->m_keys.begin() + (half_index + 1), child->m_keys.end());
+    child->m_keys.erase(child->m_keys.begin() + (half_index), child->m_keys.end());
 
-        root->m_keys.insert(root->m_keys.begin() + index, *half_it);
+    root->m_children.insert(root->m_children.begin() + (index + 1), new_child);
 
-        new_child->m_keys = std::vector<int>(half_it, child->m_keys.end());
-        child->m_keys.erase(half_it, child->m_keys.end());
-    }
-
-    if (!child->m_leaf)
-    {
-        {
-            auto half_it = child->m_children.begin();
-            std::advance(half_it, child->m_children.size() / 2);
-
-            child->m_children = std::vector<std::shared_ptr<Node>>(half_it, child->m_children.end());
-            new_child->m_children.erase(half_it, child->m_children.end());
-        }
-    }
+    return half_number;
 }
 
 void BTree::print()
 {
-    int height = 0;
-
-    for (int i = 0; i < this->m_root->m_keys.size(); i++)
+    if (this->m_root)
     {
-        std::cout << "Height " << height << std::endl;
-        std::cout << this->m_root->m_keys[i] << std::endl;
-        if (i < this->m_root->m_children.size())
-        {
-            this->print(this->m_root->m_children[i], height + 1);
-        }
-    }
-
-    if (this->m_root->m_children.size() > 1)
-    {
-        print(this->m_root->m_children[this->m_root->m_children.size() - 1], 1);
+        print(this->m_root, 0);
     }
 }
 
 void BTree::print(std::shared_ptr<Node> root, int height)
 {
-    for (int i = 0; i < this->m_root->m_keys.size(); i++)
+    if (root != nullptr)
     {
-        std::cout << "Height " << height << std::endl;
-        std::cout << root->m_keys[i] << std::endl;
-        if (i < root->m_children.size())
+        for (int i = 0; i < root->m_keys.size(); i++)
         {
-            this->print(root->m_children[i], height + 1);
+            std::cout << "Height " << height << std::endl;
+            std::cout << root->m_keys[i] << std::endl;
+            if (i < root->m_children.size())
+            {
+                this->print(root->m_children[i], height + 1);
+            }
         }
-    }
 
-    if (root->m_children.size() > 1)
-    {
-        print(root->m_children[root->m_children.size() - 1], 1);
+        if (!root->m_children.empty())
+        {
+            this->print(root->m_children.back(), height + 1);
+        }
     }
 }
