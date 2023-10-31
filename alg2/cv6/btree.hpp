@@ -24,6 +24,7 @@ class BTree
     int m_n;
 
     void print(std::shared_ptr<Node> root, int height);
+    bool search(int number, std::shared_ptr<Node> root);
 
   public:
     BTree(int n);

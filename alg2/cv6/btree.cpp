@@ -1,8 +1,10 @@
 #include "btree.hpp"
+#include <filesystem>
 #include <iostream>
 #include <iterator>
 #include <memory>
 #include <algorithm>
+#include <ostream>
 
 Node::Node(std::shared_ptr<Node> parent, bool leaf)
 {
@@ -23,30 +25,36 @@ BTree::BTree(int n)
     this->m_n = n;
 }
 
-bool BTree::search(int number)
+bool BTree::search(int number, std::shared_ptr<Node> root)
 {
-    std::shared_ptr<Node> root = this->m_root;
-
-    for (int i = 0; i < root->m_keys.size(); i++)
+    if (root == nullptr)
     {
-        if (number == root->m_keys[i])
-        {
-            return true;
-        }
-
-        if (number < root->m_keys[i] && root->m_children.size() > i)
-        {
-            root = root->m_children[i];
-            i = 0;
-        }
-        else if (i == root->m_keys.size() - 1)
-        {
-            root = root->m_children[root->m_children.size() - 1];
-            i = 0;
-        }
+        return false;
     }
 
-    return false;
+    size_t i = 0;
+    while (i < root->m_keys.size() && number > root->m_keys[i])
+    {
+        i++;
+    }
+
+    if (i < root->m_keys.size() && number == root->m_keys[i])
+    {
+        return true;
+    }
+    else
+    {
+        if (i >= root->m_children.size())
+        {
+            return false;
+        }
+        return this->search(number, root->m_children[i]);
+    }
+}
+
+bool BTree::search(int number)
+{
+    return (this->m_root) ? this->search(number, this->m_root) : false;
 }
 
 void BTree::add(int number)
@@ -170,6 +178,13 @@ int BTree::split_child(std::shared_ptr<Node> root, int index, int number)
 
     root->m_children.insert(root->m_children.begin() + (index + 1), new_child);
 
+    if (!child->m_leaf && child->m_children.size() != 1)
+    {
+        new_child->m_children.insert(new_child->m_children.begin(), child->m_children.begin() + half_index,
+                                     child->m_children.end());
+        child->m_children.erase(child->m_children.begin() + half_index, child->m_children.end());
+    }
+
     return half_number;
 }
 
@@ -195,8 +210,9 @@ void BTree::print(std::shared_ptr<Node> root, int height)
             }
         }
 
-        if (!root->m_children.empty())
+        if (!root->m_children.empty() && root->m_children.size() > 1)
         {
+            std::cout << "last child" << std::endl;
             this->print(root->m_children.back(), height + 1);
         }
     }

@@ -3,16 +3,21 @@
 
 int main(int argv, char **argc)
 {
-    BTree x(1);
+    BTree strom(1);
 
-    x.add(10);
-    x.add(22);
-    x.add(3);
-    x.add(25);
-    x.add(24);
-    x.add(27);
-    x.add(26);
-    x.print();
+    strom.add(10);
+    strom.add(14);
+    strom.add(15);
+    strom.add(25);
+    strom.add(12);
+    strom.add(27);
+    strom.add(22);
+    strom.add(28);
+    strom.add(29);
+
+    strom.print();
+
+    std::cout << (strom.search(29) ? "Číslo nalezeno" : "Číslo nenalezeno") << std::endl;
 
     return 0;
 }
