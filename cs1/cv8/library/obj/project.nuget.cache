@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Imp8JF9gOZ7WiU+L2ysHluME39csSgkAByNOmZ9TeKVX5JKs/GgTvb8QMpHMuSS1ZmFE3vII4iozq0+KON7yBw==",
+  "success": true,
+  "projectFilePath": "/home/ivoslovacek/programming/vsb-fei-inf/cs1/cv8/library/library.csproj",
+  "expectedPackageFiles": [
+    "/home/ivoslovacek/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.13/microsoft.aspnetcore.app.ref.7.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
