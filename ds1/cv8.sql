@@ -136,3 +136,6 @@ create table reviews (
     primary key (film_id, customer_id),
     
 )
+
+select *
+from bod_schuze
