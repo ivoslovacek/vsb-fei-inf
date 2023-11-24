@@ -1,0 +1,122 @@
+@navbar-underline: white, red, yellow, rgb(50,205,50), blue, #2b6eff, #2f913a, #7128bf;
+
+.navbar-container {
+    height: auto; 
+    background: black;
+    .navbar {
+        display: flex;
+        height: 64px;
+        max-height: 64px; 
+        max-width: 1248px;
+        color: white;
+        margin: 0 auto;
+        padding: 0 16px;
+        font-size: 13px;
+        font-weight: bold;
+
+        * {
+            align-items: center;
+        }
+
+        svg {
+             fill: white; 
+        }
+
+        .vertical-separator {
+            width: 1px; 
+            height: 2rem;
+            align-self: center;
+            background-color: #333;
+            margin: 0 2rem;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                display: flex;
+                height: 100%;
+                margin: 0 .5rem;
+                * #with-button{
+                    padding-right: 0.2rem;
+                }
+
+                a:hover {
+                    border-bottom: solid 2px #fff;
+                }
+
+                &:nth-child(1) a {
+                    border-color: extract(@navbar-underline, 1);
+                }
+
+                &:nth-child(2) a {
+                    border-color: extract(@navbar-underline, 2);
+                }
+
+                &:nth-child(3) a {
+                    border-color: extract(@navbar-underline, 3);
+                }
+
+                &:nth-child(4) a {
+                    border-color: extract(@navbar-underline, 4);
+                }
+
+                &:nth-child(5) a {
+                    border-color: extract(@navbar-underline, 5);
+                }
+
+                &:nth-child(6) a {
+                    border-color: extract(@navbar-underline, 6);
+                }
+
+                &:nth-child(7) a {
+                    border-color: extract(@navbar-underline, 7);
+                }
+
+                &:nth-child(8) a {
+                    border-color: extract(@navbar-underline, 8);
+                }
+                
+                button {
+                    background: none;
+                    border: none;
+
+                    svg {
+                        fill: white;
+                        width: 1em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#slide-down {
+        max-height: 64px;
+        overflow: visible;
+        transition: max-height 0.2s ease-in-out;
+}
+
+#slide-down.hidden {
+    overflow: hidden;
+    max-height: 0;
+}
+
+#slide-down .navbar {
+    border-top: solid 1px #333;
+}
+
+.hidden-element
+{
+    visibility: hidden;
+}
+
