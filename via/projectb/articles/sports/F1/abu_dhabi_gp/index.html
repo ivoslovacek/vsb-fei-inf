@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" href="resources/style.css">
+<link rel="stylesheet" href="/resources/style.css">
+<link rel="stylesheet" href="/resources/footer.css">
 <link rel="stylesheet" href="resources/navbar.css">
 <link rel="stylesheet" href="resources/content.css">
-<link rel="stylesheet" href="resources/footer.css">
 
-<script src="resources/main.js"> </script>
 <script src="/resources/global.js"> </script>
+<script src="resources/main.js"> </script>
 
 <head>
     <meta charset=" UTF-8">
@@ -74,6 +74,12 @@
         </div>
     </div>
 
+    <div class="navbar-container navbar-head" id="slide-down">
+        <div class="navbar" id="head">
+            <span> SPORT </span>
+        </div>
+    </div>
+
     <div class="navbar-container hidden" id="slide-down">
         <div class="navbar hidden-element" id="sport-navbar">
             <ul>
@@ -103,34 +109,70 @@
     </div>
 
     <div class="content">
-        <div class="welcome">
-            <span id="welcome"> Welcome to BBC.com </span>
-            <span id="date"></span>
+        <div class="headline">
+            <h2> Max Verstappen wins season finale </h2>
         </div>
 
-        <div class="articles-container">
-            <div class="main-article">
-            </div>
-            <ul class="articles">
-                <li class="article">
-                    <div style="background-image: url(/errors/images/404.jpg);">
-                    </div>
-                </li>
-                <li class="article">
-                    <div style="background-image: url(/errors/images/404.jpg);">
-                    </div>
-                </li>
-                <li class="article">
-                    <div style="background-image: url(/errors/images/404.jpg);">
-                    </div>
-                </li>
-                <li class="article">
-                    <div style="background-image: url(/errors/images/404.jpg);">
-                    </div>
-                </li>
-            </ul>
+        <div class="release-time">
+            <svg viewBox="0 0 32 32" data-reactid=".1nyvwghz0po.0.0.0.0.2.0.1.0.0">
+                <polygon points="17,15.4 17,6 15,6 15,16.6 23.8,21.7 24.8,19.9"
+                    data-reactid=".1nyvwghz0po.0.0.0.0.2.0.1.0.0.0"></polygon>
+                <path
+                    d="M16,4c6.6,0,12,5.4,12,12c0,6.6-5.4,12-12,12S4,22.6,4,16C4,9.4,9.4,4,16,4 M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16 s16-7.2,16-16C32,7.2,24.8,0,16,0L16,0z"
+                    data-reactid=".1nyvwghz0po.0.0.0.0.2.0.1.0.0.1"></path>
+            </svg>
+            <span id="time">
+            </span>
+        </div>
+        <div class="main-img">
+            <figure>
+                <img src="images/main.jpg"></img>
+                <figcaption>
+                    Verstappen performed 'donuts' after taking the chequered flag
+                </figcaption>
+            </figure>
+        </div>
+        <div class="article-text">
+            <span class="emphasized">Red Bull's Max Verstappen ended the most dominant season in Formula 1
+                history
+                with victory in the Abu Dhabi Grand Prix, his 19th win in 22 races.</span>
+
+            <p>The comfortable victory, after brushing off a brief challenge from Ferrari's Charles Leclerc on
+                the opening lap, gives Verstappen an 86.4% win rate in 2023.</p>
+
+            <p>Red Bull's Sergio Perez took second on the road after Leclerc let him by on the penultimate lap in
+                a vain attempt to secure second in the constructors' championship for Ferrari against Mercedes, but
+                was demoted to fourth on the road by a five-second penalty.</p>
+
+            <p>That promoted George Russell to third for Mercedes and, with Lewis Hamilton securing two points
+                for ninth place, that was enough to keep Mercedes in second place by three points.</p>
+
+            <p>Leclerc's strategy had been to let Perez by in the hope that the Mexican, on fresher tyres, could
+                build enough of a lead to negate his penalty, imposed for a collision with McLaren's Lando
+                Norris.</p>
+
+            <p>But Perez did not quite make it, and he dropped down to be classified 1.1 seconds behind
+                Russell.</p>
+
+            <p>Leclerc could have chosen to back right off on the last lap and delay Russell further in the hope
+                that could make the difference, but continued to drive at his pace.</p>
+
+            <p>Mercedes team principal Toto Wolff said: "At the end, he could have pulled the handbrake on in the
+                last sector and I think that shows the character of a driver."</p>
+
+            <p>The scant consolation for Leclerc was that he vaulted both Norris and his team-mate Carlos Sainz
+                to take fifth in the drivers' championship behind Verstappen, Perez, Hamilton, and Aston Martin's
+                Fernando Alonso.</p>
+
+            <p>But Leclerc had said before the race that he did not care about that - and his face betrayed as
+                much while he waited for the post-race interviews, his disappointment at the constructors' result
+                plain to see.</p>
+
+            <p>Norris was fifth ahead of team-mate Oscar Piastri, with Alonso seventh ahead of Alpha Tauri's Yuki
+                Tsunoda, Hamilton, and the second Aston Martin of Lance Stroll.</p>
         </div>
     </div>
+
 
     <div class="footer-container">
         <div class="footer">
@@ -151,7 +193,8 @@
                     <span id="email-message"></span>
                 </div>
                 <span>
-                    <b>Copyright © 2023 Ivo Slováček.</b> Ivo Slováček is not responsible for the content of external
+                    <b>Copyright © 2023 Ivo Slováček.</b> Ivo Slováček is not responsible for the content of
+                    external
                     sites.
                 </span>
             </div>

@@ -1,7 +1,9 @@
-@navbar-underline: white, red, yellow, rgb(50,205,50), blue, #2b6eff, #2f913a, #7128bf;
-@background-color: black;
-@font-color: white;
-@separator-color: #333;
+@navbar-underline: black, red, yellow, rgb(50,205,50), blue, #2b6eff, #2f913a, #7128bf;
+@background-color: white;
+@font-color: black;
+@ver-separator-color: #333;
+@separator-color: rgba(0, 0, 0, 0.15);
+@slide-down-color: rgb(255, 210, 48);
 
 .navbar-container {
     height: auto; 
@@ -29,7 +31,7 @@
             width: 1px; 
             height: 1.5rem;
             align-self: center;
-            background-color: #333;
+            background-color: @ver-separator-color;
             margin: 0 2rem;
         }
 
@@ -54,7 +56,7 @@
                 }
 
                 a:hover {
-                    border-bottom: solid 2px #fff;
+                    border-bottom: solid 2px extract(@navbar-underline, 1);
                 }
 
                 &:nth-child(1) a {
@@ -104,18 +106,35 @@
 }
 
 #slide-down {
+        background: @slide-down-color;
         max-height: 64px;
         overflow: visible;
         transition: max-height 0.2s ease-in-out;
+
+        #head {
+            span {
+                font-size: 38px;
+                font-weight: bold;
+                align-self: center; 
+            }
+        }
+
+        li {
+            margin: 0 0;
+            margin-right: 16px;
+        }
 }
+
 
 #slide-down.hidden {
     overflow: hidden;
     max-height: 0;
+    border: 0;
 }
 
-#slide-down .navbar {
+#slide-down {
     border-top: solid 1px @separator-color;
+    border-bottom: solid 1px @separator-color;
 }
 
 .hidden-element

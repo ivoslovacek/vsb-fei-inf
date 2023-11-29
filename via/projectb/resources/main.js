@@ -1,24 +1,19 @@
 window.addEventListener('load', () => {
-    setNavbarButtons();
+    loadArticles();
     displayCurrentDate();
-    footerExploreBBC();
-});
 
-function setNavbarButtons() {
-    const liWithButton = document.querySelectorAll(".li-button");
+    window.addEventListener('resize', () => {
+        const articleContainer = document.querySelector(".articles-container");
 
-    liWithButton.forEach((li) => {
-        li.getElementsByTagName("button")[0].addEventListener("click", () => {
-            let cattegory = li.getElementsByTagName("a")[0].classList[0];
-            cattegory += "-navbar";
+        if (window.innerWidth < 1280) {
+            articleContainer.style.minHeight = `${0.234375 * window.innerWidth}px`;
+        }
+        else {
+            articleContainer.style.minHeight = `${300}px`;
+        }
 
-            let navbar = document.getElementById(cattegory);
-
-            navbar.classList.toggle("hidden-element")
-            navbar.parentNode.classList.toggle("hidden");
-        });
     });
-}
+});
 
 function displayCurrentDate() {
     const currentDate = new Date();
@@ -30,13 +25,29 @@ function displayCurrentDate() {
     DateElement.innerHTML = formattedDate;
 }
 
-function footerExploreBBC() {
-    const cattegoriesUl = document.getElementById("cattegories");
-    const exploreBBC = document.querySelector(".explore");
+async function loadArticles() {
+    const filePath = "/articles/";
+    var JSONData = null;
 
-    for (let i = 0; i < cattegoriesUl.children.length; i++) {
-        const li = cattegoriesUl.children[i];
-        const item = li.getElementsByTagName("a");
-        exploreBBC.appendChild(item[0].cloneNode(true));
-    }
+    await fetch("/resources/articles.json")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            data.articles.sort((a, b) => new Date(b.article_creation) - new Date(a.article_creation));
+            JSONData = data;
+        })
+        .catch(error => {
+            console.error('Error loading JSON:', error);
+        });
+
+    const mainArticle = document.querySelector(".main-article");
+    var tmpPath = `${filePath}${JSONData.articles[0].category}/${JSONData.articles[0].filename}/images/main.jpg`;
+
+    mainArticle.style.backgroundImage = `url(${tmpPath})`;
+
+    console.log(mainArticle.style.backgroundImage)
 }
