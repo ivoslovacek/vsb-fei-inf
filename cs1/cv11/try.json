@@ -1,0 +1,7 @@
+{
+    "CarName": "Skoda",
+    "Wheels": [
+        {"Size": 6},
+        {"Size": 20}
+    ]
+}

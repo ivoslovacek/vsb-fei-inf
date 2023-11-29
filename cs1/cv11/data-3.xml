@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Alive="true">
+  <Name>Jan</Name>
+  <Age>30</Age>
+  <ContactEmail>jan@vsb.cz</ContactEmail>
+  <Orders>
+    <Order>
+      <Name>Dort</Name>
+      <Price>400</Price>
+    </Order>
+    <Order>
+      <Name>Koláč</Name>
+      <Price>20.5</Price>
+    </Order>
+  </Orders>
+</Customer>

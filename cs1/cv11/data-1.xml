@@ -1,0 +1,1 @@
+<Customer xmlns="http://schemas.datacontract.org/2004/07/Tutorial10.DataContractExample" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Age>30</Age><ContactEmail>jan@vsb.cz</ContactEmail><IsAlive>true</IsAlive><Name>Jan</Name><Orders><Order><Name>Dort</Name><Price>400</Price></Order><Order><Name>Koláč</Name><Price>20.5</Price></Order></Orders></Customer>
