@@ -1,0 +1,108 @@
+html {
+  background: #282828;
+  color: #ebdbb2;
+  margin: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 24px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+.content .search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .search.nolocation {
+  justify-content: center;
+  height: 100vh;
+}
+.content .search span {
+  margin-top: 0.5rem;
+}
+.content .search input {
+  background: inherit;
+  color: inherit;
+  box-sizing: border-box;
+  width: 70%;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 1.5rem;
+  padding: 0.2rem 0.2rem;
+  border: 1px solid #ebdbb2;
+  border-radius: 0.2rem;
+}
+.content #map {
+  width: 35%;
+  margin: 0.5rem auto;
+}
+.content .forecast-container {
+  min-width: 35%;
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+.content .forecast-container .switcher {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ebdbb2;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+}
+.content .forecast-container .switcher span {
+  background: #7c6f64;
+  color: #fbf1c7;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ebdbb2;
+  border-bottom: none;
+}
+.content .forecast-container .weather {
+  background: #665c54;
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ebdbb2;
+  border-bottom-left-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+}
+.content .forecast-container .weather .weather-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.content .forecast-container .weather .weather-item .tempandicon {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: center;
+  padding-right: 0.5em;
+}
+.content .forecast-container .weather .weather-item .tempandicon img {
+  width: 5em;
+  height: 5em;
+  align-self: center;
+}
+.content .forecast-container .weather .weather-item .tempandicon span {
+  text-align: center;
+}
+.content .forecast-container .weather .weather-item .rest {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.content .forecast-container .weather .weather-item .rest span {
+  padding-right: 0.5em;
+}
+.content .hidden {
+  display: none;
+  border: none!important;
+}
