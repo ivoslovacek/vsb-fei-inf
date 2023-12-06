@@ -32,7 +32,7 @@
             height: 1.5rem;
             align-self: center;
             background-color: @ver-separator-color;
-            margin: 0 2rem;
+            margin-left: 1.5rem;
         }
 
         a {
@@ -44,13 +44,15 @@
 
         ul {
             display: flex;
+            width: 55%;
+            justify-content: space-around;
             list-style: none;
             margin: 0;
             padding: 0;
             li {
                 display: flex;
                 height: 100%;
-                margin: 0 .5rem;
+                margin: 0;
                 * #with-button{
                     padding-right: 0.2rem;
                 }
@@ -110,6 +112,7 @@
         max-height: 64px;
         overflow: visible;
         transition: max-height 0.2s ease-in-out;
+        border-top: solid 1px @separator-color;
 
         #head {
             span {
@@ -119,10 +122,110 @@
             }
         }
 
-        li {
-            margin: 0 0;
-            margin-right: 16px;
+        #category-select {
+            height: auto;
+            font-size: 15px;
+            font-weight: 700;
+            border: none;
+
+            ul {
+                list-style: none;
+                width: auto;
+                justify-content: start;
+                
+                li {
+                    position: relative;
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 8px;
+                    font-weight: 400;
+
+                    &::after {
+                        position: absolute;
+                        right: 0;
+                        content: "";
+                        width: 1px;
+                        height: 16px;
+                        background: @separator-color;
+                    }
+
+                    &:first-child {
+                        padding-left: 0;
+                    }
+
+                    &:last-child {
+                        &::after {
+                            width: 0px;
+                        }
+                    }
+
+                    &.selected {
+                        color: white;
+                        background: black;
+
+                        * {
+                            color: inherit;
+                        }
+                    }
+
+
+                    a:hover {
+                        border: 0px;
+                    } 
+                }
+            }
         }
+
+    ul {
+        justify-content: start;
+        
+        li {
+            padding-right: 1.5rem;
+        }
+    }
+    border-top: solid 1px @separator-color;
+
+    &.category {
+        background: black;
+        color: white;
+
+        * {
+            color: inherit;
+        }
+        
+        ul {
+            li{
+                box-sizing: border-box;
+
+                svg {
+                    fill: white;
+                    width: 12px;
+                    height: auto;
+                }
+
+                &::after {
+                    background: rgba(255, 255, 255, 0.3)!important;
+                }
+
+                &:first-child {
+                    padding-right: 0!important;
+
+                    &::after {
+                        width: 0px!important;
+                    }
+                }
+
+                &.selected::before {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    background: @slide-down-color;
+                    width: 100%;
+                    height: 4px;
+                }
+            }
+        }
+    }
 }
 
 
@@ -130,11 +233,6 @@
     overflow: hidden;
     max-height: 0;
     border: 0;
-}
-
-#slide-down {
-    border-top: solid 1px @separator-color;
-    border-bottom: solid 1px @separator-color;
 }
 
 .hidden-element

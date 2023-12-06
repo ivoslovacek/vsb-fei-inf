@@ -1,0 +1,252 @@
+{
+  "Drivers": [
+    {
+      "Country": "&#x1F1EC;&#x1F1E7;",
+      "Driver": "Zhou Guanyu",
+      "Team": "Alfa Romeo F1 Team Stake",
+      "Wins": 0,
+      "Points": 6,
+      "Podiums": 0
+    },
+    {
+      "Country": "&#x1F1FA;&#x1F1F8;",
+      "Driver": "Valtteri Bottas",
+      "Team": "Scuderia AlphaTauri",
+      "Wins": 0,
+      "Points": 10,
+      "Podiums": 0
+    },
+    {
+      "Country": "&#x1F1EF;&#x1F1F5;",
+      "Driver": "Nyck de Vries",
+      "Team": "Scuderia AlphaTauri",
+      "Wins": 0,
+      "Points": 0,
+      "Podiums": 0
+    },
+    {
+      "Country": "&#x1F1D4;&#x1F1F0;",
+      "Driver": "Daniel Ricciardo",
+      "Team": "Scuderia AlphaTauri",
+      "Wins": 0,
+      "Points": 6,
+      "Podiums": 0
+    },
+    {
+      "Country": "&#x1F1F9;&#x1F1ED;",
+      "Driver": "Liam Lawson",
+      "Team": "Scuderia AlphaTauri",
+      "Wins": 0,
+      "Points": 2,
+      "Podiums": 0
+    },
+    {
+      "Country": "&#x1F1EF;&#x1F1F5;",
+      "Driver": "Yuki Tsunoda",
+      "Team": "Scuderia AlphaTauri",
+      "Wins": 0,
+      "Points": 17,
+      "Podiums": 0
+    },
+    {
+      "Country": "&#x1F1EB;&#x1F1F7;",
+      "Driver": "Pierre Gasly",
+      "Team": "BWT Alpine F1 Team",
+      "Wins": 0,
+      "Points": 62,
+      "Podiums": 1
+    },
+    {
+      "Country": "&#x1F1EB;&#x1F1F7;",
+      "Driver": "Esteban Ocon",
+      "Team": "BWT Alpine F1 Team",
+      "Wins": 0,
+      "Points": 58,
+      "Podiums": 1
+    },
+    {
+      "Country": "&#x1F1E6;&#x1F1F9;",
+      "Driver": "Fernando Alonso",
+      "Team": "Aston Martin Aramco Cognizant F1 Team",
+      "Wins": 0,
+      "Points": 206,
+      "Podiums": 8
+    },
+    {
+      "Country": "&#x1F1E8;&#x1F1E6;",
+      "Driver": "Lance Stroll",
+      "Team": "Aston Martin Aramco Cognizant F1 Team",
+      "Wins": 0,
+      "Points": 74,
+      "Podiums": 0
+    },
+    {
+      "Country": "&#x1F1EB;&#x1F1F7;",
+      "Driver": "Charles Leclerc",
+      "Team": "Scuderia Ferrari",
+      "Wins": 0,
+      "Points": 206,
+      "Podiums": 6
+    },
+    {
+      "Country": "&#x1F1E6;&#x1F1F8;",
+      "Driver": "Carlos Sainz Jr.",
+      "Team": "Scuderia Ferrari",
+      "Wins": 1,
+      "Points": 200,
+      "Podiums": 3
+    },
+    {
+      "Country": "&#x1F1F8;&#x1F1F3;",
+      "Driver": "Kevin Magnussen",
+      "Team": "MoneyGram Haas F1 Team",
+      "Wins": 0,
+      "Points": 3,
+      "Podiums": 0
+    },
+    {
+      "Country": "&#x1F1E9;&#x1F1EA;",
+      "Driver": "Nico Hülkenberg",
+      "Team": "MoneyGram Haas F1 Team",
+      "Wins": 0,
+      "Points": 9,
+      "Podiums": 0
+    },
+    {
+      "Country": "&#x1F1EC;&#x1F1E7;",
+      "Driver": "Lando Norris",
+      "Team": "McLaren F1 Team",
+      "Wins": 0,
+      "Points": 205,
+      "Podiums": 7
+    },
+    {
+      "Country": "&#x1F1E6;&#x1F1F9;",
+      "Driver": "Oscar Piastri",
+      "Team": "McLaren F1 Team",
+      "Wins": 0,
+      "Points": 97,
+      "Podiums": 2
+    },
+    {
+      "Country": "&#x1F1EC;&#x1F1E7;",
+      "Driver": "Lewis Hamilton",
+      "Team": "Mercedes-AMG Petronas F1 Team",
+      "Wins": 0,
+      "Points": 234,
+      "Podiums": 6
+    },
+    {
+      "Country": "&#x1F1EC;&#x1F1E7;",
+      "Driver": "George Russell",
+      "Team": "Mercedes-AMG Petronas F1 Team",
+      "Wins": 0,
+      "Points": 175,
+      "Podiums": 2
+    },
+    {
+      "Country": "&#x1F1E6;&#x1F1F8;",
+      "Driver": "Max Verstappen",
+      "Team": "Oracle Red Bull Racing",
+      "Wins": 19,
+      "Points": 575,
+      "Podiums": 21
+    },
+    {
+      "Country": "&#x1F1F2;&#x1F1EA;",
+      "Driver": "Sergio Pérez",
+      "Team": "Oracle Red Bull Racing",
+      "Wins": 2,
+      "Points": 285,
+      "Podiums": 9
+    },
+    {
+      "Country": "&#x1F1EC;&#x1F1E7;",
+      "Driver": "Logan Sargeant",
+      "Team": "Williams Racing",
+      "Wins": 0,
+      "Points": 1,
+      "Podiums": 0
+    },
+    {
+      "Country": "&#x1F1F9;&#x1F1ED;",
+      "Driver": "Alexander Albon",
+      "Team": "Williams Racing",
+      "Wins": 0,
+      "Points": 27,
+      "Podiums": 0
+    }
+  ],
+    "Constructors": [
+        {
+            "Country": "&#x1F1E8;&#x1F1ED;",
+            "Team": "Alfa Romeo F1 Team Stake",
+            "Wins": 0,
+            "Points": 16,
+            "Podiums": 0
+        },
+        {
+            "Country": "&#x1F1EE;&#x1F1F9;",
+            "Team": "Scuderia AlphaTauri",
+            "Wins": 0,
+            "Points": 25,
+            "Podiums": 0
+        },
+        {
+            "Country": "&#x1F1EB;&#x1F1F7;",
+            "Team": "BWT Alpine F1 Team",
+            "Wins": 0,
+            "Points": 120,
+            "Podiums": 2
+        },
+        {
+            "Country": "&#x1F1EC;&#x1F1E7;",
+            "Team": "Aston Martin Aramco Cognizant F1 Team",
+            "Wins": 0,
+            "Points": 280,
+            "Podiums": 8
+        },
+        {
+            "Country": "&#x1F1EE;&#x1F1F9;",
+            "Team": "Scuderia Ferrari",
+            "Wins": 1,
+            "Points": 406,
+            "Podiums": 9
+        },
+        {
+            "Country": "&#x1F1FA;&#x1F1F8;",
+            "Team": "MoneyGram Haas F1 Team",
+            "Wins": 0,
+            "Points": 12,
+            "Podiums": 0
+        },
+        {
+            "Country": "&#x1F1EC;&#x1F1E7;",
+            "Team": "McLaren F1 Team",
+            "Wins": 0,
+            "Points": 302,
+            "Podiums": 9
+        },
+        {
+            "Country": "&#x1F1E9;&#x1F1EA;",
+            "Team": "Mercedes-AMG Petronas F1 Team",
+            "Wins": 0,
+            "Points": 409,
+            "Podiums": 8
+        },
+        {
+            "Country": "&#x1F1E6;&#x1F1F9;",
+            "Team": "Oracle Red Bull Racing",
+            "Wins": 21,
+            "Points": 860,
+            "Podiums": 30
+        },
+        {
+            "Country": "&#x1F1EC;&#x1F1E7;",
+            "Team": "Williams Racing",
+            "Wins": 0,
+            "Points": 28,
+            "Podiums": 0
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+@separator-color: rgba(0, 0, 0, 0.15);
+@font-color: #121212;
+@figcaption-bg: #ededed;
+@figcaption-color: #5a5a5a;
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto; 
+    color: @font-color;
+    width: 1248px;
+    max-width: 1248px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 0 16px 0;
+
+    .standings-container {
+        min-width: 83.3333333333%!important;
+
+        .standings {
+            width: 100%;
+            padding-left: 1rem;
+
+            h1 {
+                margin: 24px 0px 12px 0px;
+            }
+
+            .switcher {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                margin-bottom: 1.5rem;
+
+                button {
+                    box-sizing: border-box;
+                    width: 50%;  
+                    height: 2.25rem;
+                    background: white;
+                    font-size: 1rem;
+                    border: 1px solid rgba(37, 37, 37, 0.3);
+                
+                    &.selected {
+                        background: rgb(37, 37, 37);
+                        color: white;
+                    }
+                }
+            }
+
+            .constructors  {
+                th, td {
+                    
+                    &:nth-child(2) {
+                        width: 80%!important;
+                    }
+
+                    &:nth-child(3) {
+                        text-align: right;
+                        width: auto!important;
+                    }
+                }
+            }
+
+            table {
+                min-width: 100%;
+                border-bottom: 1px solid;
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+
+            thead {
+                font-weight: 700;
+            }
+
+            th, td {
+                padding: 0;
+                text-align: right;
+
+                &:nth-child(2), &:nth-child(3) {
+                    text-align: left;
+                    width: 40%!important;
+                }
+            }
+
+            th {
+                padding: 16px 4px 4px;
+
+                &:first-child {
+                    padding: 16px 4px 4px 8px;
+                }
+
+                &:last-child {
+                    padding: 16px 8px 4px 4px;
+                }
+            }
+
+            td {
+                padding: 8px 4px;
+
+                &:first-child {
+                    padding: 8px 4px 8px 8px;
+                }
+
+                &:last-child {
+                    padding: 8px 8px 8px 4px;
+                }
+            }
+    
+
+            tr {
+                flex-direction: row;
+                width: 100%;
+                height: 2.25rem;
+                background-color: rgb(247, 247, 245);
+                border-bottom: 1px solid rgba(37, 37, 37, 0.1);
+                font-size: .8125rem;
+            }
+        }
+    } 
+
+    .hidden {
+        display: none!important;
+    }
+}

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" href="resources/style.css">
-<link rel="stylesheet" href="resources/navbar.css">
+<link rel="stylesheet" href="/resources/style.css">
+<link rel="stylesheet" href="/resources/footer.css">
 <link rel="stylesheet" href="resources/content.css">
-<link rel="stylesheet" href="resources/footer.css">
+<link rel="stylesheet" href="../resources/navbar.css">
 
-<script src="resources/main.js"> </script>
 <script src="/resources/global.js"> </script>
+<script src="resources/main.js"> </script>
 
 <head>
     <meta charset=" UTF-8">
@@ -42,19 +42,12 @@
                         </span>
                     </a>
                 </li>
-                <li class="li-button">
+                <li class="nav-item">
                     <a class="sport" href="/errors/404.html">
-                        <span id="with-button">
+                        <span>
                             Sport
                         </span>
                     </a>
-                    <button>
-                        <svg fill="none" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 386.257 386.257"
-                            xml:space="preserve">
-                            <polygon points="0,96.879 193.129,289.379 386.257,96.879 " />
-                        </svg>
-                    </button>
                 </li>
                 <li class="nav-item">
                     <a href="/errors/404.html">
@@ -95,88 +88,70 @@
         </div>
     </div>
 
-    <div class="navbar-container hidden" id="slide-down">
-        <div class="navbar hidden-element" id="sport-navbar">
+    <div class="navbar-container navbar-head" id="slide-down">
+        <div class="navbar" id="head">
+            <a href="/errors/404.html">
+                <span> SPORT </span>
+            </a>
+        </div>
+    </div>
+
+    <div class="navbar-container navbar-head" id="slide-down">
+        <div class="navbar" id="category-select">
             <ul>
-                <li><a href="/errors/404.html"><span>Football</span></a></li>
-                <li><a href="/errors/404.html"><span>Cricket</span></a></li>
-                <li><a href="/articles/sport/F1/mainpage/index.html"><span>Formula 1</span></a></li>
-                <li><a href="/errors/404.html"><span>Rugby U</span></a></li>
-                <li><a href="/errors/404.html"><span>Tennis</span></a></li>
-                <li><a href="/errors/404.html"><span>Golf</span></a></li>
-                <li><a href="/errors/404.html"><span>Athletics</span></a></li>
-                <li><a href="/errors/404.html"><span>Cycling</span></a></li>
+                <ul>
+                    <li><a href="/errors/404.html"><span>Home</span></a></li>
+                    <li><a href="/errors/404.html"><span>Football</span></a></li>
+                    <li><a href="/errors/404.html"><span>Cricket</span></a></li>
+                    <li class="selected"><a href="/articles/sport/F1/mainpage/index.html"><span>Formula 1</span></a>
+                    </li>
+                    <li><a href="/errors/404.html"><span>Rugby U</span></a></li>
+                    <li><a href="/errors/404.html"><span>Tennis</span></a></li>
+                    <li><a href="/errors/404.html"><span>Golf</span></a></li>
+                    <li><a href="/errors/404.html"><span>Athletics</span></a></li>
+                    <li><a href="/errors/404.html"><span>Cycling</span></a></li>
+                </ul>
+
+            </ul>
+        </div>
+    </div>
+    <div class="navbar-container category" id="slide-down">
+        <div class="navbar" id="category-select">
+            <ul>
+                <ul>
+                    <li class="selected"><a href="/articles/sport/F1/mainpage/index.html"><span>Formula 1
+                                <svg width="31.9" height="32" viewBox="0 0 31.9 32">
+                                    <path d="M29 16L3 0v7.2L17.6 16 3 24.8V32z"></path>
+                                </svg></span></a></li>
+                    <li><a href="/errors/404.html"><span>Latest</span></a></li>
+                    <li><a href="/errors/404.html"><span>Results</span></a></li>
+                    <li><a href="/articles/sport/F1/standings/index.html"><span>Standings</span></a></li>
+                    <li><a href="/errors/404.html"><span>Calendar</span></a></li>
+                    <li><a href="/errors/404.html"><span>Teams & Drivers</span></a></li>
+                </ul>
+
             </ul>
         </div>
     </div>
 
     <div class="content">
-        <div class="welcome">
-            <span id="welcome"> Welcome to BBC.com </span>
-            <span id="date"></span>
-        </div>
-
-        <div class="articles-container">
-            <div class="main-article">
-                <div class="article-headline">
-                    <h3 class="headline-text"></h3>
-                    <a class="cattegory-link"></a>
+        <div class="other-articles-container">
+            <div class="other-articles">
+                <div class="other-article-container" id="topstory-template">
+                    <a href="/index.html" class="article-link">
+                        <div class="other-article-image">
+                            <img> </img>
+                        </div>
+                        <div class="other-article-text">
+                            <h3>
+                            </h3>
+                        </div>
+                    </a>
                 </div>
-                <a class="article-link">
-                </a>
             </div>
-            <ul class="articles">
-                <li class="article">
-                    <div class="article-background">
-                        <div class="text-article">
-                            <div class="article-headline">
-                                <h3 class="headline-text"></h3>
-                                <a class="cattegory-link"></a>
-                            </div>
-                        </div>
-                        <a class="article-link">
-                        </a>
-                    </div>
-                </li>
-                <li class="article">
-                    <div class="article-background">
-                        <div class="text-article">
-                            <div class="article-headline">
-                                <h3 class="headline-text"></h3>
-                                <a class="cattegory-link"></a>
-                            </div>
-                        </div>
-                        <a class="article-link">
-                        </a>
-                    </div>
-                </li>
-                <li class="article">
-                    <div class="article-background">
-                        <div class="text-article">
-                            <div class="article-headline">
-                                <h3 class="headline-text"></h3>
-                                <a class="cattegory-link"></a>
-                            </div>
-                        </div>
-                        <a class="article-link">
-                        </a>
-                    </div>
-                </li>
-                <li class="article">
-                    <div class="article-background">
-                        <div class="text-article">
-                            <div class="article-headline">
-                                <h3 class="headline-text"></h3>
-                                <a class="cattegory-link"></a>
-                            </div>
-                        </div>
-                        <a class="article-link">
-                        </a>
-                    </div>
-                </li>
-            </ul>
         </div>
     </div>
+
 
     <div class="footer-container">
         <div class="footer">

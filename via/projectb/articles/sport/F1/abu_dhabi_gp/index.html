@@ -3,11 +3,11 @@
 
 <link rel="stylesheet" href="/resources/style.css">
 <link rel="stylesheet" href="/resources/footer.css">
-<link rel="stylesheet" href="resources/navbar.css">
-<link rel="stylesheet" href="resources/content.css">
+<link rel="stylesheet" href="../resources/navbar.css">
+<link rel="stylesheet" href="../resources/content.css">
 
 <script src="/resources/global.js"> </script>
-<script src="resources/main.js"> </script>
+<script src="../resources/main.js"> </script>
 
 <head>
     <meta charset=" UTF-8">
@@ -42,19 +42,12 @@
                         </span>
                     </a>
                 </li>
-                <li class="li-button">
+                <li class="nav-item">
                     <a class="sport" href="/errors/404.html">
-                        <span id="with-button">
+                        <span>
                             Sport
                         </span>
                     </a>
-                    <button>
-                        <svg fill="none" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 386.257 386.257"
-                            xml:space="preserve">
-                            <polygon points="0,96.879 193.129,289.379 386.257,96.879 " />
-                        </svg>
-                    </button>
                 </li>
                 <li class="nav-item">
                     <a href="/errors/404.html">
@@ -70,40 +63,73 @@
                         </span>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="/errors/404.html">
+                        <span>
+                            Worklife
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/errors/404.html">
+                        <span>
+                            Travel
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/errors/404.html">
+                        <span>
+                            Culture
+                        </span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
 
     <div class="navbar-container navbar-head" id="slide-down">
         <div class="navbar" id="head">
-            <span> SPORT </span>
+            <a href="/errors/404.html">
+                <span> SPORT </span>
+            </a>
         </div>
     </div>
 
-    <div class="navbar-container hidden" id="slide-down">
-        <div class="navbar hidden-element" id="sport-navbar">
+    <div class="navbar-container navbar-head" id="slide-down">
+        <div class="navbar" id="category-select">
             <ul>
-                <li>
-                    <a href="errors/404.html">
-                        <span>
-                            Formula 1
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="errors/404.html">
-                        <span>
-                            Football
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="errors/404.html">
-                        <span>
-                            Badminton
-                        </span>
-                    </a>
-                </li>
+                <ul>
+                    <li><a href="/errors/404.html"><span>Home</span></a></li>
+                    <li><a href="/errors/404.html"><span>Football</span></a></li>
+                    <li><a href="/errors/404.html"><span>Cricket</span></a></li>
+                    <li class="selected"><a href="/articles/sport/F1/mainpage/index.html"><span>Formula 1</span></a>
+                    </li>
+                    <li><a href="/errors/404.html"><span>Rugby U</span></a></li>
+                    <li><a href="/errors/404.html"><span>Tennis</span></a></li>
+                    <li><a href="/errors/404.html"><span>Golf</span></a></li>
+                    <li><a href="/errors/404.html"><span>Athletics</span></a></li>
+                    <li><a href="/errors/404.html"><span>Cycling</span></a></li>
+                </ul>
+
+            </ul>
+        </div>
+    </div>
+    <div class="navbar-container category" id="slide-down">
+        <div class="navbar" id="category-select">
+            <ul>
+                <ul>
+                    <li><a href="/articles/sport/F1/mainpage/index.html"><span>Formula 1
+                                <svg width="31.9" height="32" viewBox="0 0 31.9 32">
+                                    <path d="M29 16L3 0v7.2L17.6 16 3 24.8V32z"></path>
+                                </svg></span></a></li>
+                    <li><a href="/errors/404.html"><span>Latest</span></a></li>
+                    <li><a href="/errors/404.html"><span>Results</span></a></li>
+                    <li><a href="/articles/sport/F1/standings/index.html"><span>Standings</span></a></li>
+                    <li><a href="/errors/404.html"><span>Calendar</span></a></li>
+                    <li><a href="/errors/404.html"><span>Teams & Drivers</span></a></li>
+                </ul>
+
             </ul>
         </div>
     </div>
@@ -111,7 +137,7 @@
     <div class="content">
         <div class="article-content">
             <div class="headline">
-                <h2> Max Verstappen wins season finale </h2>
+                <h2> Max Verstappen wins season finale in Abu Dhabi</h2>
             </div>
 
             <div class="release-time">
@@ -134,9 +160,9 @@
                 </figure>
             </div>
             <div class="article-text">
-                <span class="emphasized">Red Bull's Max Verstappen ended the most dominant season in Formula 1
+                <p class="emphasized">Red Bull's Max Verstappen ended the most dominant season in Formula 1
                     history
-                    with victory in the Abu Dhabi Grand Prix, his 19th win in 22 races.</span>
+                    with victory in the Abu Dhabi Grand Prix, his 19th win in 22 races.</p>
 
                 <p>The comfortable victory, after brushing off a brief challenge from Ferrari's Charles Leclerc on
                     the opening lap, gives Verstappen an 86.4% win rate in 2023.</p>
@@ -191,11 +217,101 @@
                         </figcaption>
                     </figure>
                 </div>
+
+                <p class="emphasized"> Verstappen's incredible season </p>
+
+                <p>Russell said he was delighted to secure the position for Mercedes. "It means a lot to everyone back
+                    at the factory after a difficult season," he said. "I am really happy to secure second."</p>
+
+                <p>Leclerc said: "Checo had a five-second penalty, so we had to help him to finish in front of George,
+                    so I tried to give him the DRS and slipstream, but unfortunately, it was not enough."</p>
+
+                <p>He said he was happy Ferrari had been the second fastest car in Abu Dhabi, disappointed to lose out
+                    on second in the championship but proud of the team for recovering strongly after they started the
+                    season with a difficult car.</p>
+
+                <p>Verstappen said: "An incredible season. I was a little emotional on the in-lap - it is the last time
+                    I am sitting in the car which has given me a lot.</p>
+
+                <p>I am proud to win the last race. It was an incredible year. It will be hard to do something similar
+                    again.</p>
+
+                <p>We are working hard again to have a very competitive car. The other teams will be trying to beat us,
+                    but we are ready for the challenge."</p>
+
+                <p>It had been known since Brazil two races ago that Verstappen would finish the season with a better
+                    win percentage than the previous record of 75% set by Alberto Ascari in 1952. But to beat that by
+                    more than 10% underlines the scale of his achievement this year.</p>
+
+                <p class="emphasized"> How the race unfolded </p>
+
+                <p>Verstappen's victory was never in doubt - and surely would not have been even had Leclerc managed to
+                    get ahead of the Red Bull on a feisty opening lap.</p>
+
+                <p>The Ferrari driver challenged into the first corner after making a better start than Verstappen,
+                    before backing out of a move, and again into Turns Six and Seven, where again the world champion
+                    fended him off.</p>
+
+                <p>Leclerc then settled into securing second place, knowing he faced a fight with the McLarens and
+                    Russell.</p>
+
+                <p>Lando Norris passed Russell at the start to run in fourth behind Verstappen, Leclerc, and the other
+                    McLaren of Oscar Piastri in the early laps.</p>
+
+                <p>But Norris and Russell soon passed Piastri and then made their first pit stops on lap 14, when a slow
+                    stop for Norris vaulted Russell ahead.</p>
+
+                <p>Once in front, the Mercedes was faster, and the top four positions looked locked in until Perez's
+                    recovery drive came into focus.</p>
+
+                <p>The Mexican had started ninth after losing his fastest qualifying lap to a track limits infringement
+                    but Red Bull used two long first stints, stopping later than their rivals at both stops to give him
+                    a tire advantage in the final stint.</p>
+
+                <p>Perez rejoined behind Leclerc, Russell, and Norris, but hauled them all in over the final 10 laps or
+                    so.</p>
+
+                <p>His penalty came as a result of an incident on lap 47, 11 laps from the end, when he tried to pass
+                    Norris at the end of the first long straight.</p>
+
+                <p>Norris gave him room but Perez ran deep into the corner and the two cars collided.</p>
+
+                <p>Norris complained over the radio that Perez had driven into him, and the stewards deemed that Perez
+                    had caused a collision and awarded the penalty on which ultimately rested the destiny of $10m of
+                    prize money.</p>
+
+                <p>After the race, the McLaren driver said: "I tried to let him past. I was like four car lengths away
+                    from the apex, and somehow he still crashed into me. Impressive."</p>
+
+                <p>McLaren were disappointed not to achieve their pre-race aim of a podium, with Piastri starting third
+                    and Norris fifth, but their car simply did not have the pace to compete with the Ferrari and
+                    Mercedes in front.</p>
+
+                <p>Their consolation was that the result was more than enough to secure them fourth in the constructors'
+                    championship ahead of Aston Martin.</p>
+
+                <p>Tsunoda drove a strong race on a one-stop strategy in the upgraded Alpha Tauri and even had a period
+                    in the lead as the front-running cars made their first pit stops.</p>
+
+                <p>But as his tires wore in the closing laps, he was powerless to hold off Alonso's charge, although he
+                    did manage to stay just over a second ahead of Hamilton, who was slightly hampered by front wing
+                    damage caused by running into the back of Pierre Gasly's Alpine early in the race.</p>
             </div>
         </div>
         <div class="other-articles-container">
             <div class="other-articles">
                 <h2>Top stories</h2>
+                <div class="other-article-container" id="topstory-template">
+                    <a href="/index.html" class="article-link">
+                        <div class="other-article-image">
+                            <img> </img>
+                        </div>
+                        <div class="other-article-text">
+                            <h3>
+                            </h3>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

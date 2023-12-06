@@ -25,13 +25,34 @@
         max-width: 1280px;
         margin: 0 auto;
         padding: 32px 16px 0;
-        min-height: 300px;
+        min-height: 378px;
         height: 100%;
-        
-        .main-article .articles {
-            max-height: 300px;
+        color: white; 
+
+        a {
+            text-decoration: none;
+            font-size: 14px;
+
+            &:visited {
+                color: inherit;
+            }
+        }
+
+        .article-link {
+            display: block; 
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            text-decoration: none;
+            z-index: 1;
+        }
+
+        .main-article, .articles {
             height: auto;
             overflow: hidden;
+            position: relative;
         }
 
         .main-article {
@@ -42,8 +63,35 @@
             background-repeat: no-repeat;
             background-size: cover;
 
+            .text-article {
+                min-width: 100%;
+                min-height: 100%;
+            }
+
             &:hover {
                 filter: brightness(1);
+            }
+
+            .article-headline {
+                position: absolute;
+                box-sizing: border-box;
+                bottom: 0;
+                width: 100%;
+                padding: 16px;
+                padding-top: 6rem;
+                margin: 0; 
+
+                h3 {
+                    font-size: 2rem;
+                    font-weight: normal;
+                    margin: 0;
+                }
+
+                .cattegory-link {
+                    margin-top: 12px;
+                    padding-left: 0.5rem;
+                    border-left: 2px solid;
+                }
             }
         }
 
@@ -63,11 +111,39 @@
                 filter: brightness(0.9);
                 height: 50%;
 
-                div {
+                .article-background {
                     height: 100%;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
+
+                    .text-article {
+                        min-width: 100%;
+                        min-height: 100%;
+                        position: relative;
+
+                        .article-headline {
+                            position: absolute;
+                            bottom: 0;
+                            box-sizing: border-box;
+                            width: 100%;
+                            padding: 12px;
+                            padding-top: 2.5rem;
+                            margin: 0; 
+
+                            h3 {
+                                font-size: 1.25rem;
+                                font-weight: normal;
+                                margin: 0;
+                            }
+
+                            .cattegory-link {
+                                margin-top: 12px;
+                                padding-left: 0.5rem;
+                                border-left: 2px solid;
+                            }
+                        }
+                    }
                 }
 
                 &:nth-child(1), &:nth-child(2){

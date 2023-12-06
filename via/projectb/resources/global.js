@@ -6,6 +6,9 @@ window.addEventListener('load', () => {
 
 function setNavbarButtons() {
     const liWithButton = document.querySelectorAll(".li-button");
+    if (liWithButton == null) {
+        return;
+    }
 
     liWithButton.forEach((li) => {
         li.getElementsByTagName("button")[0].addEventListener("click", () => {
