@@ -1,0 +1,1745 @@
+[
+  {
+    "Name": "Lena Doležal",
+    "Gender": "female",
+    "MathScore": 98,
+    "ReadingScore": 100,
+    "WritingScore": 99
+  },
+  {
+    "Name": "Ráchel Bartoš",
+    "Gender": "male",
+    "MathScore": 100,
+    "ReadingScore": 97,
+    "WritingScore": 99
+  },
+  {
+    "Name": "Elsa Moravec",
+    "Gender": "female",
+    "MathScore": 94,
+    "ReadingScore": 99,
+    "WritingScore": 100
+  },
+  {
+    "Name": "Augustina Fiala",
+    "Gender": "female",
+    "MathScore": 92,
+    "ReadingScore": 100,
+    "WritingScore": 100
+  },
+  {
+    "Name": "Rozalie Bartoš",
+    "Gender": "female",
+    "MathScore": 96,
+    "ReadingScore": 96,
+    "WritingScore": 99
+  },
+  {
+    "Name": "Jana Sýkora",
+    "Gender": "female",
+    "MathScore": 92,
+    "ReadingScore": 100,
+    "WritingScore": 99
+  },
+  {
+    "Name": "André Vlček",
+    "Gender": "male",
+    "MathScore": 100,
+    "ReadingScore": 96,
+    "WritingScore": 86
+  },
+  {
+    "Name": "Oleg Konečný",
+    "Gender": "male",
+    "MathScore": 91,
+    "ReadingScore": 96,
+    "WritingScore": 92
+  },
+  {
+    "Name": "Ľubomíra Hruška",
+    "Gender": "female",
+    "MathScore": 90,
+    "ReadingScore": 95,
+    "WritingScore": 93
+  },
+  {
+    "Name": "Alexej Beneš",
+    "Gender": "male",
+    "MathScore": 96,
+    "ReadingScore": 90,
+    "WritingScore": 92
+  },
+  {
+    "Name": "Božetěch Matoušek",
+    "Gender": "male",
+    "MathScore": 94,
+    "ReadingScore": 90,
+    "WritingScore": 91
+  },
+  {
+    "Name": "Irma Dostál",
+    "Gender": "female",
+    "MathScore": 88,
+    "ReadingScore": 95,
+    "WritingScore": 92
+  },
+  {
+    "Name": "Yvonna Pavlík",
+    "Gender": "female",
+    "MathScore": 81,
+    "ReadingScore": 97,
+    "WritingScore": 96
+  },
+  {
+    "Name": "Božena Čermák",
+    "Gender": "female",
+    "MathScore": 84,
+    "ReadingScore": 95,
+    "WritingScore": 92
+  },
+  {
+    "Name": "Josefa Kolář",
+    "Gender": "female",
+    "MathScore": 87,
+    "ReadingScore": 89,
+    "WritingScore": 94
+  },
+  {
+    "Name": "Amália Nguyen",
+    "Gender": "female",
+    "MathScore": 85,
+    "ReadingScore": 86,
+    "WritingScore": 98
+  },
+  {
+    "Name": "Karla Müller",
+    "Gender": "female",
+    "MathScore": 82,
+    "ReadingScore": 93,
+    "WritingScore": 93
+  },
+  {
+    "Name": "Vítek Nguyen",
+    "Gender": "male",
+    "MathScore": 93,
+    "ReadingScore": 84,
+    "WritingScore": 90
+  },
+  {
+    "Name": "Andreas Čermák",
+    "Gender": "male",
+    "MathScore": 93,
+    "ReadingScore": 90,
+    "WritingScore": 83
+  },
+  {
+    "Name": "Pavol Bureš",
+    "Gender": "male",
+    "MathScore": 97,
+    "ReadingScore": 87,
+    "WritingScore": 82
+  },
+  {
+    "Name": "Čeněk Nguyen",
+    "Gender": "male",
+    "MathScore": 84,
+    "ReadingScore": 89,
+    "WritingScore": 90
+  },
+  {
+    "Name": "Zoltán Horák",
+    "Gender": "male",
+    "MathScore": 88,
+    "ReadingScore": 89,
+    "WritingScore": 86
+  },
+  {
+    "Name": "Samuel Zeman",
+    "Gender": "male",
+    "MathScore": 90,
+    "ReadingScore": 87,
+    "WritingScore": 85
+  },
+  {
+    "Name": "Brigitta Tichý",
+    "Gender": "female",
+    "MathScore": 81,
+    "ReadingScore": 91,
+    "WritingScore": 89
+  },
+  {
+    "Name": "Michal Bureš",
+    "Gender": "male",
+    "MathScore": 94,
+    "ReadingScore": 85,
+    "WritingScore": 82
+  },
+  {
+    "Name": "Viktor Urban",
+    "Gender": "male",
+    "MathScore": 95,
+    "ReadingScore": 81,
+    "WritingScore": 84
+  },
+  {
+    "Name": "Bartoloměj Navrátil",
+    "Gender": "male",
+    "MathScore": 87,
+    "ReadingScore": 84,
+    "WritingScore": 87
+  },
+  {
+    "Name": "Karel Sedláček",
+    "Gender": "male",
+    "MathScore": 87,
+    "ReadingScore": 84,
+    "WritingScore": 86
+  },
+  {
+    "Name": "Vojtěška Mašek",
+    "Gender": "female",
+    "MathScore": 76,
+    "ReadingScore": 94,
+    "WritingScore": 87
+  },
+  {
+    "Name": "Alfred Ševčík",
+    "Gender": "male",
+    "MathScore": 89,
+    "ReadingScore": 87,
+    "WritingScore": 79
+  },
+  {
+    "Name": "Richard Kučera",
+    "Gender": "male",
+    "MathScore": 92,
+    "ReadingScore": 79,
+    "WritingScore": 84
+  },
+  {
+    "Name": "Silvie Matoušek",
+    "Gender": "female",
+    "MathScore": 79,
+    "ReadingScore": 89,
+    "WritingScore": 86
+  },
+  {
+    "Name": "Julia Fiala",
+    "Gender": "female",
+    "MathScore": 75,
+    "ReadingScore": 90,
+    "WritingScore": 88
+  },
+  {
+    "Name": "Hanka Svoboda",
+    "Gender": "female",
+    "MathScore": 74,
+    "ReadingScore": 90,
+    "WritingScore": 88
+  },
+  {
+    "Name": "Vilemína Kadlec",
+    "Gender": "female",
+    "MathScore": 77,
+    "ReadingScore": 90,
+    "WritingScore": 85
+  },
+  {
+    "Name": "Karolína Moravec",
+    "Gender": "female",
+    "MathScore": 77,
+    "ReadingScore": 90,
+    "WritingScore": 84
+  },
+  {
+    "Name": "Ida Štěpánek",
+    "Gender": "female",
+    "MathScore": 85,
+    "ReadingScore": 84,
+    "WritingScore": 82
+  },
+  {
+    "Name": "Lea Šťastný",
+    "Gender": "female",
+    "MathScore": 80,
+    "ReadingScore": 85,
+    "WritingScore": 85
+  },
+  {
+    "Name": "Laura Pavlík",
+    "Gender": "female",
+    "MathScore": 77,
+    "ReadingScore": 85,
+    "WritingScore": 87
+  },
+  {
+    "Name": "Anna-Marie Mach",
+    "Gender": "female",
+    "MathScore": 73,
+    "ReadingScore": 92,
+    "WritingScore": 84
+  },
+  {
+    "Name": "Augustin Čermák",
+    "Gender": "male",
+    "MathScore": 88,
+    "ReadingScore": 78,
+    "WritingScore": 83
+  },
+  {
+    "Name": "Zlata Procházka",
+    "Gender": "female",
+    "MathScore": 81,
+    "ReadingScore": 84,
+    "WritingScore": 82
+  },
+  {
+    "Name": "Jiřinka Kadlec",
+    "Gender": "female",
+    "MathScore": 69,
+    "ReadingScore": 90,
+    "WritingScore": 88
+  },
+  {
+    "Name": "Vratislava Říha",
+    "Gender": "female",
+    "MathScore": 75,
+    "ReadingScore": 82,
+    "WritingScore": 90
+  },
+  {
+    "Name": "Dennis Štěpánek",
+    "Gender": "male",
+    "MathScore": 81,
+    "ReadingScore": 81,
+    "WritingScore": 84
+  },
+  {
+    "Name": "Mark Urban",
+    "Gender": "male",
+    "MathScore": 78,
+    "ReadingScore": 81,
+    "WritingScore": 86
+  },
+  {
+    "Name": "Elisabeth Hruška",
+    "Gender": "male",
+    "MathScore": 91,
+    "ReadingScore": 73,
+    "WritingScore": 80
+  },
+  {
+    "Name": "Berenika Bláha",
+    "Gender": "female",
+    "MathScore": 76,
+    "ReadingScore": 85,
+    "WritingScore": 82
+  },
+  {
+    "Name": "Katarina Černý",
+    "Gender": "female",
+    "MathScore": 79,
+    "ReadingScore": 81,
+    "WritingScore": 82
+  },
+  {
+    "Name": "Brian Müller",
+    "Gender": "male",
+    "MathScore": 81,
+    "ReadingScore": 81,
+    "WritingScore": 79
+  },
+  {
+    "Name": "Naděžda Konečný",
+    "Gender": "female",
+    "MathScore": 74,
+    "ReadingScore": 81,
+    "WritingScore": 83
+  },
+  {
+    "Name": "Radana Holub",
+    "Gender": "female",
+    "MathScore": 77,
+    "ReadingScore": 79,
+    "WritingScore": 80
+  },
+  {
+    "Name": "Rebecca Zeman",
+    "Gender": "female",
+    "MathScore": 76,
+    "ReadingScore": 78,
+    "WritingScore": 80
+  },
+  {
+    "Name": "Jennifer Musil",
+    "Gender": "male",
+    "MathScore": 81,
+    "ReadingScore": 75,
+    "WritingScore": 78
+  },
+  {
+    "Name": "Chiara Marek",
+    "Gender": "female",
+    "MathScore": 72,
+    "ReadingScore": 79,
+    "WritingScore": 82
+  },
+  {
+    "Name": "Gerlinda Polák",
+    "Gender": "female",
+    "MathScore": 65,
+    "ReadingScore": 84,
+    "WritingScore": 84
+  },
+  {
+    "Name": "Žofie Mašek",
+    "Gender": "female",
+    "MathScore": 71,
+    "ReadingScore": 83,
+    "WritingScore": 78
+  },
+  {
+    "Name": "Johan Novotný",
+    "Gender": "male",
+    "MathScore": 79,
+    "ReadingScore": 77,
+    "WritingScore": 75
+  },
+  {
+    "Name": "Lýdia Vlček",
+    "Gender": "female",
+    "MathScore": 73,
+    "ReadingScore": 79,
+    "WritingScore": 79
+  },
+  {
+    "Name": "Zdeněk Pokorný",
+    "Gender": "male",
+    "MathScore": 81,
+    "ReadingScore": 72,
+    "WritingScore": 77
+  },
+  {
+    "Name": "Marija Novák",
+    "Gender": "female",
+    "MathScore": 69,
+    "ReadingScore": 79,
+    "WritingScore": 81
+  },
+  {
+    "Name": "René Bláha",
+    "Gender": "male",
+    "MathScore": 76,
+    "ReadingScore": 78,
+    "WritingScore": 75
+  },
+  {
+    "Name": "Debora Šimek",
+    "Gender": "female",
+    "MathScore": 70,
+    "ReadingScore": 82,
+    "WritingScore": 76
+  },
+  {
+    "Name": "Leontýna Horák",
+    "Gender": "female",
+    "MathScore": 74,
+    "ReadingScore": 75,
+    "WritingScore": 79
+  },
+  {
+    "Name": "Lilian Kovář",
+    "Gender": "male",
+    "MathScore": 77,
+    "ReadingScore": 78,
+    "WritingScore": 73
+  },
+  {
+    "Name": "Zorka Novotný",
+    "Gender": "female",
+    "MathScore": 65,
+    "ReadingScore": 82,
+    "WritingScore": 81
+  },
+  {
+    "Name": "Zbigniew Kopecký",
+    "Gender": "male",
+    "MathScore": 85,
+    "ReadingScore": 75,
+    "WritingScore": 68
+  },
+  {
+    "Name": "Olivia Musil",
+    "Gender": "female",
+    "MathScore": 73,
+    "ReadingScore": 75,
+    "WritingScore": 80
+  },
+  {
+    "Name": "Nathalie Šťastný",
+    "Gender": "female",
+    "MathScore": 73,
+    "ReadingScore": 76,
+    "WritingScore": 78
+  },
+  {
+    "Name": "Květoslava Mareš",
+    "Gender": "female",
+    "MathScore": 73,
+    "ReadingScore": 78,
+    "WritingScore": 76
+  },
+  {
+    "Name": "Leopolda Dostál",
+    "Gender": "female",
+    "MathScore": 77,
+    "ReadingScore": 77,
+    "WritingScore": 73
+  },
+  {
+    "Name": "Judita Horák",
+    "Gender": "female",
+    "MathScore": 76,
+    "ReadingScore": 76,
+    "WritingScore": 74
+  },
+  {
+    "Name": "Vladimir Pospíšil",
+    "Gender": "male",
+    "MathScore": 81,
+    "ReadingScore": 74,
+    "WritingScore": 71
+  },
+  {
+    "Name": "Patricie Dostál",
+    "Gender": "female",
+    "MathScore": 74,
+    "ReadingScore": 81,
+    "WritingScore": 71
+  },
+  {
+    "Name": "Alexandr Müller",
+    "Gender": "male",
+    "MathScore": 72,
+    "ReadingScore": 79,
+    "WritingScore": 74
+  },
+  {
+    "Name": "Anton Musil",
+    "Gender": "male",
+    "MathScore": 80,
+    "ReadingScore": 73,
+    "WritingScore": 72
+  },
+  {
+    "Name": "Heinz Holub",
+    "Gender": "male",
+    "MathScore": 74,
+    "ReadingScore": 71,
+    "WritingScore": 80
+  },
+  {
+    "Name": "Samantha Tichý",
+    "Gender": "female",
+    "MathScore": 68,
+    "ReadingScore": 77,
+    "WritingScore": 80
+  },
+  {
+    "Name": "Mikoláš Liška",
+    "Gender": "male",
+    "MathScore": 81,
+    "ReadingScore": 71,
+    "WritingScore": 73
+  },
+  {
+    "Name": "Ľubica Doležal",
+    "Gender": "female",
+    "MathScore": 68,
+    "ReadingScore": 80,
+    "WritingScore": 76
+  },
+  {
+    "Name": "Miloslav Svoboda",
+    "Gender": "male",
+    "MathScore": 74,
+    "ReadingScore": 77,
+    "WritingScore": 73
+  },
+  {
+    "Name": "Sylvie Mach",
+    "Gender": "female",
+    "MathScore": 69,
+    "ReadingScore": 77,
+    "WritingScore": 78
+  },
+  {
+    "Name": "Margarita Mach",
+    "Gender": "female",
+    "MathScore": 63,
+    "ReadingScore": 80,
+    "WritingScore": 80
+  },
+  {
+    "Name": "Ladislav Polák",
+    "Gender": "male",
+    "MathScore": 73,
+    "ReadingScore": 78,
+    "WritingScore": 72
+  },
+  {
+    "Name": "Daniela Hrubý",
+    "Gender": "female",
+    "MathScore": 74,
+    "ReadingScore": 76,
+    "WritingScore": 73
+  },
+  {
+    "Name": "Jenifer Valenta",
+    "Gender": "male",
+    "MathScore": 69,
+    "ReadingScore": 77,
+    "WritingScore": 77
+  },
+  {
+    "Name": "Sylva Bláha",
+    "Gender": "female",
+    "MathScore": 69,
+    "ReadingScore": 78,
+    "WritingScore": 76
+  },
+  {
+    "Name": "Hanna Hruška",
+    "Gender": "female",
+    "MathScore": 69,
+    "ReadingScore": 77,
+    "WritingScore": 77
+  },
+  {
+    "Name": "Július Matoušek",
+    "Gender": "male",
+    "MathScore": 75,
+    "ReadingScore": 73,
+    "WritingScore": 74
+  },
+  {
+    "Name": "Běla Tichý",
+    "Gender": "female",
+    "MathScore": 69,
+    "ReadingScore": 75,
+    "WritingScore": 78
+  },
+  {
+    "Name": "Lenka Černý",
+    "Gender": "female",
+    "MathScore": 66,
+    "ReadingScore": 74,
+    "WritingScore": 81
+  },
+  {
+    "Name": "Petr Moravec",
+    "Gender": "male",
+    "MathScore": 78,
+    "ReadingScore": 72,
+    "WritingScore": 70
+  },
+  {
+    "Name": "Ronald Král",
+    "Gender": "male",
+    "MathScore": 73,
+    "ReadingScore": 74,
+    "WritingScore": 72
+  },
+  {
+    "Name": "Světla Říha",
+    "Gender": "female",
+    "MathScore": 69,
+    "ReadingScore": 77,
+    "WritingScore": 73
+  },
+  {
+    "Name": "Paula Jelínek",
+    "Gender": "female",
+    "MathScore": 62,
+    "ReadingScore": 78,
+    "WritingScore": 79
+  },
+  {
+    "Name": "Erna Čech",
+    "Gender": "female",
+    "MathScore": 65,
+    "ReadingScore": 81,
+    "WritingScore": 73
+  },
+  {
+    "Name": "Alica Hájek",
+    "Gender": "female",
+    "MathScore": 74,
+    "ReadingScore": 72,
+    "WritingScore": 72
+  },
+  {
+    "Name": "Lilly Hájek",
+    "Gender": "female",
+    "MathScore": 72,
+    "ReadingScore": 72,
+    "WritingScore": 74
+  },
+  {
+    "Name": "Anna Marie Krejčí",
+    "Gender": "female",
+    "MathScore": 65,
+    "ReadingScore": 76,
+    "WritingScore": 76
+  },
+  {
+    "Name": "Mária Štěpánek",
+    "Gender": "female",
+    "MathScore": 69,
+    "ReadingScore": 74,
+    "WritingScore": 74
+  },
+  {
+    "Name": "Milana Vávra",
+    "Gender": "female",
+    "MathScore": 65,
+    "ReadingScore": 75,
+    "WritingScore": 77
+  },
+  {
+    "Name": "Vilibald Kopecký",
+    "Gender": "male",
+    "MathScore": 71,
+    "ReadingScore": 75,
+    "WritingScore": 70
+  },
+  {
+    "Name": "Sabrina Pokorný",
+    "Gender": "female",
+    "MathScore": 65,
+    "ReadingScore": 77,
+    "WritingScore": 74
+  },
+  {
+    "Name": "Jozefa Liška",
+    "Gender": "female",
+    "MathScore": 69,
+    "ReadingScore": 73,
+    "WritingScore": 73
+  },
+  {
+    "Name": "Radan Fiala",
+    "Gender": "male",
+    "MathScore": 69,
+    "ReadingScore": 75,
+    "WritingScore": 71
+  },
+  {
+    "Name": "Ludmila Havlíček",
+    "Gender": "female",
+    "MathScore": 63,
+    "ReadingScore": 73,
+    "WritingScore": 78
+  },
+  {
+    "Name": "Luca Vlček",
+    "Gender": "female",
+    "MathScore": 68,
+    "ReadingScore": 71,
+    "WritingScore": 75
+  },
+  {
+    "Name": "Olena Novák",
+    "Gender": "female",
+    "MathScore": 57,
+    "ReadingScore": 78,
+    "WritingScore": 79
+  },
+  {
+    "Name": "Natalia Veselý",
+    "Gender": "female",
+    "MathScore": 67,
+    "ReadingScore": 72,
+    "WritingScore": 74
+  },
+  {
+    "Name": "Jelena Pospíšil",
+    "Gender": "female",
+    "MathScore": 67,
+    "ReadingScore": 69,
+    "WritingScore": 75
+  },
+  {
+    "Name": "Apolena Polák",
+    "Gender": "female",
+    "MathScore": 63,
+    "ReadingScore": 74,
+    "WritingScore": 74
+  },
+  {
+    "Name": "Jitka Marek",
+    "Gender": "female",
+    "MathScore": 66,
+    "ReadingScore": 76,
+    "WritingScore": 68
+  },
+  {
+    "Name": "Sonia Vávra",
+    "Gender": "female",
+    "MathScore": 61,
+    "ReadingScore": 71,
+    "WritingScore": 78
+  },
+  {
+    "Name": "Květuška Němec",
+    "Gender": "female",
+    "MathScore": 65,
+    "ReadingScore": 75,
+    "WritingScore": 70
+  },
+  {
+    "Name": "Dana Vaněk",
+    "Gender": "female",
+    "MathScore": 58,
+    "ReadingScore": 75,
+    "WritingScore": 77
+  },
+  {
+    "Name": "Simon Zeman",
+    "Gender": "male",
+    "MathScore": 70,
+    "ReadingScore": 68,
+    "WritingScore": 72
+  },
+  {
+    "Name": "Jarolím Veselý",
+    "Gender": "male",
+    "MathScore": 75,
+    "ReadingScore": 72,
+    "WritingScore": 62
+  },
+  {
+    "Name": "Anežka Král",
+    "Gender": "female",
+    "MathScore": 65,
+    "ReadingScore": 70,
+    "WritingScore": 74
+  },
+  {
+    "Name": "Jindřich Janda",
+    "Gender": "male",
+    "MathScore": 77,
+    "ReadingScore": 67,
+    "WritingScore": 64
+  },
+  {
+    "Name": "Bruno Vávra",
+    "Gender": "male",
+    "MathScore": 73,
+    "ReadingScore": 74,
+    "WritingScore": 61
+  },
+  {
+    "Name": "Nikola Bureš",
+    "Gender": "female",
+    "MathScore": 66,
+    "ReadingScore": 72,
+    "WritingScore": 70
+  },
+  {
+    "Name": "Vladimír Liška",
+    "Gender": "male",
+    "MathScore": 71,
+    "ReadingScore": 69,
+    "WritingScore": 68
+  },
+  {
+    "Name": "Olivie Mareš",
+    "Gender": "female",
+    "MathScore": 56,
+    "ReadingScore": 79,
+    "WritingScore": 72
+  },
+  {
+    "Name": "Simona Zeman",
+    "Gender": "female",
+    "MathScore": 62,
+    "ReadingScore": 70,
+    "WritingScore": 75
+  },
+  {
+    "Name": "Galina Tichý",
+    "Gender": "female",
+    "MathScore": 63,
+    "ReadingScore": 73,
+    "WritingScore": 71
+  },
+  {
+    "Name": "Jarmil Pospíšil",
+    "Gender": "male",
+    "MathScore": 80,
+    "ReadingScore": 63,
+    "WritingScore": 63
+  },
+  {
+    "Name": "Nelli Navrátil",
+    "Gender": "male",
+    "MathScore": 65,
+    "ReadingScore": 73,
+    "WritingScore": 68
+  },
+  {
+    "Name": "Johanna Pospíšil",
+    "Gender": "female",
+    "MathScore": 55,
+    "ReadingScore": 72,
+    "WritingScore": 79
+  },
+  {
+    "Name": "Vladan Ševčík",
+    "Gender": "male",
+    "MathScore": 70,
+    "ReadingScore": 70,
+    "WritingScore": 65
+  },
+  {
+    "Name": "Otokar Müller",
+    "Gender": "male",
+    "MathScore": 68,
+    "ReadingScore": 72,
+    "WritingScore": 65
+  },
+  {
+    "Name": "Veronica Kopecký",
+    "Gender": "female",
+    "MathScore": 62,
+    "ReadingScore": 72,
+    "WritingScore": 70
+  },
+  {
+    "Name": "Evženie Růžička",
+    "Gender": "female",
+    "MathScore": 59,
+    "ReadingScore": 73,
+    "WritingScore": 72
+  },
+  {
+    "Name": "Ursula Mareš",
+    "Gender": "female",
+    "MathScore": 60,
+    "ReadingScore": 70,
+    "WritingScore": 74
+  },
+  {
+    "Name": "Günter Kučera",
+    "Gender": "male",
+    "MathScore": 68,
+    "ReadingScore": 68,
+    "WritingScore": 67
+  },
+  {
+    "Name": "Matouš Krejčí",
+    "Gender": "male",
+    "MathScore": 73,
+    "ReadingScore": 66,
+    "WritingScore": 63
+  },
+  {
+    "Name": "Oldřiška Novotný",
+    "Gender": "female",
+    "MathScore": 59,
+    "ReadingScore": 72,
+    "WritingScore": 70
+  },
+  {
+    "Name": "Ondřej Mašek",
+    "Gender": "male",
+    "MathScore": 73,
+    "ReadingScore": 66,
+    "WritingScore": 62
+  },
+  {
+    "Name": "Anika Novák",
+    "Gender": "female",
+    "MathScore": 55,
+    "ReadingScore": 73,
+    "WritingScore": 73
+  },
+  {
+    "Name": "Jolana Kadlec",
+    "Gender": "female",
+    "MathScore": 65,
+    "ReadingScore": 69,
+    "WritingScore": 67
+  },
+  {
+    "Name": "Vojtěch Pokorný",
+    "Gender": "male",
+    "MathScore": 69,
+    "ReadingScore": 64,
+    "WritingScore": 68
+  },
+  {
+    "Name": "Adriana Němec",
+    "Gender": "female",
+    "MathScore": 60,
+    "ReadingScore": 68,
+    "WritingScore": 72
+  },
+  {
+    "Name": "Drahoslav Blažek",
+    "Gender": "male",
+    "MathScore": 68,
+    "ReadingScore": 68,
+    "WritingScore": 64
+  },
+  {
+    "Name": "Naďa Urban",
+    "Gender": "female",
+    "MathScore": 58,
+    "ReadingScore": 73,
+    "WritingScore": 68
+  },
+  {
+    "Name": "Lev Liška",
+    "Gender": "male",
+    "MathScore": 62,
+    "ReadingScore": 72,
+    "WritingScore": 65
+  },
+  {
+    "Name": "John Soukup",
+    "Gender": "male",
+    "MathScore": 66,
+    "ReadingScore": 69,
+    "WritingScore": 63
+  },
+  {
+    "Name": "Karin Fiala",
+    "Gender": "male",
+    "MathScore": 76,
+    "ReadingScore": 62,
+    "WritingScore": 60
+  },
+  {
+    "Name": "Maruška Matoušek",
+    "Gender": "female",
+    "MathScore": 57,
+    "ReadingScore": 67,
+    "WritingScore": 72
+  },
+  {
+    "Name": "Rastislav Staněk",
+    "Gender": "male",
+    "MathScore": 69,
+    "ReadingScore": 66,
+    "WritingScore": 61
+  },
+  {
+    "Name": "Zdeňka Sedláček",
+    "Gender": "female",
+    "MathScore": 62,
+    "ReadingScore": 67,
+    "WritingScore": 67
+  },
+  {
+    "Name": "Justin Kolář",
+    "Gender": "male",
+    "MathScore": 62,
+    "ReadingScore": 66,
+    "WritingScore": 68
+  },
+  {
+    "Name": "Doris Bartoš",
+    "Gender": "male",
+    "MathScore": 64,
+    "ReadingScore": 64,
+    "WritingScore": 67
+  },
+  {
+    "Name": "Jindřiška Novotný",
+    "Gender": "female",
+    "MathScore": 55,
+    "ReadingScore": 71,
+    "WritingScore": 69
+  },
+  {
+    "Name": "Mathias Matoušek",
+    "Gender": "male",
+    "MathScore": 61,
+    "ReadingScore": 67,
+    "WritingScore": 66
+  },
+  {
+    "Name": "Radovana Šimek",
+    "Gender": "female",
+    "MathScore": 63,
+    "ReadingScore": 64,
+    "WritingScore": 67
+  },
+  {
+    "Name": "Vanda Moravec",
+    "Gender": "female",
+    "MathScore": 53,
+    "ReadingScore": 70,
+    "WritingScore": 70
+  },
+  {
+    "Name": "Zora Sýkora",
+    "Gender": "female",
+    "MathScore": 56,
+    "ReadingScore": 72,
+    "WritingScore": 65
+  },
+  {
+    "Name": "Věruška Holub",
+    "Gender": "female",
+    "MathScore": 53,
+    "ReadingScore": 66,
+    "WritingScore": 73
+  },
+  {
+    "Name": "Kryštof Dvořák",
+    "Gender": "male",
+    "MathScore": 69,
+    "ReadingScore": 60,
+    "WritingScore": 63
+  },
+  {
+    "Name": "Liliana Kříž",
+    "Gender": "female",
+    "MathScore": 52,
+    "ReadingScore": 67,
+    "WritingScore": 72
+  },
+  {
+    "Name": "Tim Horák",
+    "Gender": "male",
+    "MathScore": 66,
+    "ReadingScore": 65,
+    "WritingScore": 60
+  },
+  {
+    "Name": "Mikuláš Dušek",
+    "Gender": "male",
+    "MathScore": 66,
+    "ReadingScore": 66,
+    "WritingScore": 59
+  },
+  {
+    "Name": "Evelína Polák",
+    "Gender": "female",
+    "MathScore": 63,
+    "ReadingScore": 65,
+    "WritingScore": 61
+  },
+  {
+    "Name": "Jasmína Dostál",
+    "Gender": "female",
+    "MathScore": 53,
+    "ReadingScore": 72,
+    "WritingScore": 64
+  },
+  {
+    "Name": "Silvestr Holub",
+    "Gender": "male",
+    "MathScore": 60,
+    "ReadingScore": 68,
+    "WritingScore": 60
+  },
+  {
+    "Name": "Arnoštka Kovář",
+    "Gender": "female",
+    "MathScore": 61,
+    "ReadingScore": 64,
+    "WritingScore": 62
+  },
+  {
+    "Name": "Petronela Sýkora",
+    "Gender": "female",
+    "MathScore": 62,
+    "ReadingScore": 62,
+    "WritingScore": 63
+  },
+  {
+    "Name": "Ilona Liška",
+    "Gender": "female",
+    "MathScore": 58,
+    "ReadingScore": 63,
+    "WritingScore": 65
+  },
+  {
+    "Name": "Lívia Janda",
+    "Gender": "female",
+    "MathScore": 59,
+    "ReadingScore": 63,
+    "WritingScore": 64
+  },
+  {
+    "Name": "Ervín Říha",
+    "Gender": "male",
+    "MathScore": 63,
+    "ReadingScore": 61,
+    "WritingScore": 60
+  },
+  {
+    "Name": "Radka Čech",
+    "Gender": "female",
+    "MathScore": 58,
+    "ReadingScore": 59,
+    "WritingScore": 66
+  },
+  {
+    "Name": "Hannelore Malý",
+    "Gender": "male",
+    "MathScore": 67,
+    "ReadingScore": 57,
+    "WritingScore": 59
+  },
+  {
+    "Name": "Lukáš Valenta",
+    "Gender": "male",
+    "MathScore": 71,
+    "ReadingScore": 62,
+    "WritingScore": 50
+  },
+  {
+    "Name": "Emílie Kolář",
+    "Gender": "female",
+    "MathScore": 54,
+    "ReadingScore": 64,
+    "WritingScore": 65
+  },
+  {
+    "Name": "Arnošt Růžička",
+    "Gender": "male",
+    "MathScore": 60,
+    "ReadingScore": 63,
+    "WritingScore": 59
+  },
+  {
+    "Name": "Angelina Staněk",
+    "Gender": "female",
+    "MathScore": 53,
+    "ReadingScore": 61,
+    "WritingScore": 68
+  },
+  {
+    "Name": "Lidia Dvořák",
+    "Gender": "female",
+    "MathScore": 61,
+    "ReadingScore": 58,
+    "WritingScore": 62
+  },
+  {
+    "Name": "Metoděj Dušek",
+    "Gender": "male",
+    "MathScore": 62,
+    "ReadingScore": 63,
+    "WritingScore": 56
+  },
+  {
+    "Name": "Štefania Kadlec",
+    "Gender": "female",
+    "MathScore": 50,
+    "ReadingScore": 66,
+    "WritingScore": 64
+  },
+  {
+    "Name": "Danka Janda",
+    "Gender": "female",
+    "MathScore": 50,
+    "ReadingScore": 64,
+    "WritingScore": 66
+  },
+  {
+    "Name": "Hermina Vaněk",
+    "Gender": "female",
+    "MathScore": 48,
+    "ReadingScore": 66,
+    "WritingScore": 65
+  },
+  {
+    "Name": "Branislav Svoboda",
+    "Gender": "male",
+    "MathScore": 69,
+    "ReadingScore": 54,
+    "WritingScore": 55
+  },
+  {
+    "Name": "Roland Valenta",
+    "Gender": "male",
+    "MathScore": 66,
+    "ReadingScore": 59,
+    "WritingScore": 52
+  },
+  {
+    "Name": "Alenka Mašek",
+    "Gender": "female",
+    "MathScore": 54,
+    "ReadingScore": 60,
+    "WritingScore": 63
+  },
+  {
+    "Name": "Růžena Havlíček",
+    "Gender": "female",
+    "MathScore": 52,
+    "ReadingScore": 59,
+    "WritingScore": 65
+  },
+  {
+    "Name": "Kurt Kovář",
+    "Gender": "male",
+    "MathScore": 68,
+    "ReadingScore": 51,
+    "WritingScore": 57
+  },
+  {
+    "Name": "Zbyněk Veselý",
+    "Gender": "male",
+    "MathScore": 61,
+    "ReadingScore": 60,
+    "WritingScore": 55
+  },
+  {
+    "Name": "Emil Černý",
+    "Gender": "male",
+    "MathScore": 58,
+    "ReadingScore": 60,
+    "WritingScore": 57
+  },
+  {
+    "Name": "Maruše Kříž",
+    "Gender": "female",
+    "MathScore": 50,
+    "ReadingScore": 64,
+    "WritingScore": 59
+  },
+  {
+    "Name": "Edeltraud Staněk",
+    "Gender": "male",
+    "MathScore": 55,
+    "ReadingScore": 59,
+    "WritingScore": 59
+  },
+  {
+    "Name": "Jolanta Malý",
+    "Gender": "female",
+    "MathScore": 54,
+    "ReadingScore": 58,
+    "WritingScore": 61
+  },
+  {
+    "Name": "Ingrid Kratochvíl",
+    "Gender": "male",
+    "MathScore": 62,
+    "ReadingScore": 55,
+    "WritingScore": 54
+  },
+  {
+    "Name": "Taťana Kratochvíl",
+    "Gender": "female",
+    "MathScore": 53,
+    "ReadingScore": 62,
+    "WritingScore": 56
+  },
+  {
+    "Name": "Matěj Šťastný",
+    "Gender": "male",
+    "MathScore": 55,
+    "ReadingScore": 61,
+    "WritingScore": 54
+  },
+  {
+    "Name": "Tony Staněk",
+    "Gender": "male",
+    "MathScore": 57,
+    "ReadingScore": 56,
+    "WritingScore": 57
+  },
+  {
+    "Name": "Pavlina Hrubý",
+    "Gender": "female",
+    "MathScore": 50,
+    "ReadingScore": 60,
+    "WritingScore": 60
+  },
+  {
+    "Name": "Max Šimek",
+    "Gender": "male",
+    "MathScore": 58,
+    "ReadingScore": 57,
+    "WritingScore": 54
+  },
+  {
+    "Name": "Cecilie Urban",
+    "Gender": "female",
+    "MathScore": 50,
+    "ReadingScore": 60,
+    "WritingScore": 59
+  },
+  {
+    "Name": "Slávka Černý",
+    "Gender": "female",
+    "MathScore": 44,
+    "ReadingScore": 63,
+    "WritingScore": 62
+  },
+  {
+    "Name": "Elvíra Dvořák",
+    "Gender": "female",
+    "MathScore": 53,
+    "ReadingScore": 58,
+    "WritingScore": 57
+  },
+  {
+    "Name": "Svatopluk Král",
+    "Gender": "male",
+    "MathScore": 60,
+    "ReadingScore": 57,
+    "WritingScore": 51
+  },
+  {
+    "Name": "Christina Hruška",
+    "Gender": "female",
+    "MathScore": 49,
+    "ReadingScore": 63,
+    "WritingScore": 56
+  },
+  {
+    "Name": "Sebastien Marek",
+    "Gender": "male",
+    "MathScore": 58,
+    "ReadingScore": 55,
+    "WritingScore": 53
+  },
+  {
+    "Name": "Lubor Ševčík",
+    "Gender": "male",
+    "MathScore": 55,
+    "ReadingScore": 58,
+    "WritingScore": 52
+  },
+  {
+    "Name": "Nicolas Bláha",
+    "Gender": "male",
+    "MathScore": 61,
+    "ReadingScore": 51,
+    "WritingScore": 52
+  },
+  {
+    "Name": "Aleš Kopecký",
+    "Gender": "male",
+    "MathScore": 58,
+    "ReadingScore": 54,
+    "WritingScore": 52
+  },
+  {
+    "Name": "Barbara Šťastný",
+    "Gender": "female",
+    "MathScore": 48,
+    "ReadingScore": 56,
+    "WritingScore": 58
+  },
+  {
+    "Name": "Linda Beneš",
+    "Gender": "female",
+    "MathScore": 49,
+    "ReadingScore": 58,
+    "WritingScore": 55
+  },
+  {
+    "Name": "Radmila Blažek",
+    "Gender": "female",
+    "MathScore": 42,
+    "ReadingScore": 61,
+    "WritingScore": 58
+  },
+  {
+    "Name": "Radomila Jelínek",
+    "Gender": "female",
+    "MathScore": 50,
+    "ReadingScore": 53,
+    "WritingScore": 58
+  },
+  {
+    "Name": "Liběna Růžička",
+    "Gender": "female",
+    "MathScore": 43,
+    "ReadingScore": 60,
+    "WritingScore": 58
+  },
+  {
+    "Name": "Milouš Doležal",
+    "Gender": "male",
+    "MathScore": 58,
+    "ReadingScore": 51,
+    "WritingScore": 52
+  },
+  {
+    "Name": "Nelly Hrubý",
+    "Gender": "female",
+    "MathScore": 48,
+    "ReadingScore": 58,
+    "WritingScore": 54
+  },
+  {
+    "Name": "Kristian Marek",
+    "Gender": "male",
+    "MathScore": 51,
+    "ReadingScore": 56,
+    "WritingScore": 53
+  },
+  {
+    "Name": "Janina Němec",
+    "Gender": "female",
+    "MathScore": 46,
+    "ReadingScore": 56,
+    "WritingScore": 57
+  },
+  {
+    "Name": "Rajmund Vaněk",
+    "Gender": "male",
+    "MathScore": 52,
+    "ReadingScore": 57,
+    "WritingScore": 50
+  },
+  {
+    "Name": "Angelika Havlíček",
+    "Gender": "female",
+    "MathScore": 50,
+    "ReadingScore": 53,
+    "WritingScore": 55
+  },
+  {
+    "Name": "Vasil Růžička",
+    "Gender": "male",
+    "MathScore": 63,
+    "ReadingScore": 48,
+    "WritingScore": 47
+  },
+  {
+    "Name": "Tomasz Dušek",
+    "Gender": "male",
+    "MathScore": 55,
+    "ReadingScore": 55,
+    "WritingScore": 47
+  },
+  {
+    "Name": "Václav Bartoš",
+    "Gender": "male",
+    "MathScore": 53,
+    "ReadingScore": 58,
+    "WritingScore": 44
+  },
+  {
+    "Name": "Rozárie Hájek",
+    "Gender": "female",
+    "MathScore": 49,
+    "ReadingScore": 53,
+    "WritingScore": 53
+  },
+  {
+    "Name": "Česlav Jelínek",
+    "Gender": "male",
+    "MathScore": 53,
+    "ReadingScore": 54,
+    "WritingScore": 48
+  },
+  {
+    "Name": "Jena Bureš",
+    "Gender": "female",
+    "MathScore": 40,
+    "ReadingScore": 58,
+    "WritingScore": 54
+  },
+  {
+    "Name": "Dávid Novotný",
+    "Gender": "male",
+    "MathScore": 44,
+    "ReadingScore": 54,
+    "WritingScore": 53
+  },
+  {
+    "Name": "Vladěna Kratochvíl",
+    "Gender": "female",
+    "MathScore": 37,
+    "ReadingScore": 57,
+    "WritingScore": 56
+  },
+  {
+    "Name": "Darina Němec",
+    "Gender": "female",
+    "MathScore": 35,
+    "ReadingScore": 61,
+    "WritingScore": 54
+  },
+  {
+    "Name": "Kevin Hruška",
+    "Gender": "male",
+    "MathScore": 52,
+    "ReadingScore": 48,
+    "WritingScore": 49
+  },
+  {
+    "Name": "Taťjana Procházka",
+    "Gender": "female",
+    "MathScore": 38,
+    "ReadingScore": 60,
+    "WritingScore": 50
+  },
+  {
+    "Name": "Marek Havlíček",
+    "Gender": "male",
+    "MathScore": 47,
+    "ReadingScore": 57,
+    "WritingScore": 44
+  },
+  {
+    "Name": "Vincent Kříž",
+    "Gender": "male",
+    "MathScore": 40,
+    "ReadingScore": 55,
+    "WritingScore": 53
+  },
+  {
+    "Name": "Benjamín Čech",
+    "Gender": "male",
+    "MathScore": 55,
+    "ReadingScore": 47,
+    "WritingScore": 44
+  },
+  {
+    "Name": "Vlastimil Hájek",
+    "Gender": "male",
+    "MathScore": 48,
+    "ReadingScore": 51,
+    "WritingScore": 46
+  },
+  {
+    "Name": "Evžen Krejčí",
+    "Gender": "male",
+    "MathScore": 55,
+    "ReadingScore": 46,
+    "WritingScore": 43
+  },
+  {
+    "Name": "Maroš Soukup",
+    "Gender": "male",
+    "MathScore": 50,
+    "ReadingScore": 48,
+    "WritingScore": 42
+  },
+  {
+    "Name": "Hynek Vaněk",
+    "Gender": "male",
+    "MathScore": 53,
+    "ReadingScore": 45,
+    "WritingScore": 40
+  },
+  {
+    "Name": "Danny Pospíšil",
+    "Gender": "male",
+    "MathScore": 48,
+    "ReadingScore": 43,
+    "WritingScore": 45
+  },
+  {
+    "Name": "Renée Marek",
+    "Gender": "male",
+    "MathScore": 40,
+    "ReadingScore": 52,
+    "WritingScore": 43
+  },
+  {
+    "Name": "Stefan Kolář",
+    "Gender": "male",
+    "MathScore": 46,
+    "ReadingScore": 42,
+    "WritingScore": 46
+  },
+  {
+    "Name": "Blažej Navrátil",
+    "Gender": "male",
+    "MathScore": 47,
+    "ReadingScore": 43,
+    "WritingScore": 41
+  },
+  {
+    "Name": "Miriam Pavlík",
+    "Gender": "male",
+    "MathScore": 53,
+    "ReadingScore": 39,
+    "WritingScore": 37
+  },
+  {
+    "Name": "Marko Kovář",
+    "Gender": "male",
+    "MathScore": 40,
+    "ReadingScore": 43,
+    "WritingScore": 39
+  },
+  {
+    "Name": "Izabela Král",
+    "Gender": "female",
+    "MathScore": 35,
+    "ReadingScore": 44,
+    "WritingScore": 43
+  },
+  {
+    "Name": "Jessica Soukup",
+    "Gender": "female",
+    "MathScore": 37,
+    "ReadingScore": 45,
+    "WritingScore": 38
+  },
+  {
+    "Name": "Róbert Černý",
+    "Gender": "male",
+    "MathScore": 40,
+    "ReadingScore": 42,
+    "WritingScore": 38
+  },
+  {
+    "Name": "Rudolf Konečný",
+    "Gender": "male",
+    "MathScore": 46,
+    "ReadingScore": 34,
+    "WritingScore": 36
+  },
+  {
+    "Name": "Theodora Mašek",
+    "Gender": "female",
+    "MathScore": 29,
+    "ReadingScore": 40,
+    "WritingScore": 44
+  },
+  {
+    "Name": "Lucie Dvořák",
+    "Gender": "female",
+    "MathScore": 32,
+    "ReadingScore": 39,
+    "WritingScore": 33
+  },
+  {
+    "Name": "Bibiana Procházka",
+    "Gender": "female",
+    "MathScore": 29,
+    "ReadingScore": 29,
+    "WritingScore": 30
+  },
+  {
+    "Name": "Jaruše Musil",
+    "Gender": "female",
+    "MathScore": 18,
+    "ReadingScore": 32,
+    "WritingScore": 28
+  },
+  {
+    "Name": "Marian Svoboda",
+    "Gender": "male",
+    "MathScore": 30,
+    "ReadingScore": 24,
+    "WritingScore": 15
+  }
+]
