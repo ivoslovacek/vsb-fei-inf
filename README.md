@@ -1,6 +1,10 @@
-# Kolekce z VŠB FEI Informatiky
+
+# Kolekce z VŠB FEI Informatiky :books:
 
 Repozitář sloužící k uchování probíraných věcí.
+
+> [!WARNING]
+> Není nejlepší napád submitovat věci z tohoto  repozitáře
 
 ## Předměty
 
@@ -15,6 +19,14 @@ Repozitář sloužící k uchování probíraných věcí.
 
 - Třetí semestr
     - ALG II
-    - DS I
     - C# I
-    - POS
+    - DS I
+     - POS
+- Čtvrtý semestr
+    - C++
+    - C# II
+    - DS II
+    - SKJ
+    - URO
+- Pátý semestr
+    - VIA
