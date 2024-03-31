@@ -1,0 +1,72 @@
+[
+    {
+        "link": "https://en.mapy.cz/s/jopahanasu",
+        "distance": 7.9,
+        "ascent": 673,
+        "descent": 27,
+        "difficulty": 2,
+        "start": "Štrbské pleso",
+        "end": "Ostrva",
+        "rating": 4.8
+    },
+    {
+        "link": "https://en.mapy.cz/s/huvajepaha",
+        "distance": 5.4,
+        "ascent": 253,
+        "descent": 470,
+        "difficulty": 3,
+        "start": "Skalnaté pleso",
+        "end": "Zelené pleso",
+        "rating": 4.9
+    },
+    {
+        "link": "https://en.mapy.cz/s/lolemukofe",
+        "distance": 11.1,
+        "ascent": 375,
+        "descent": 335,
+        "difficulty": 1,
+        "start": "Mosty u Jablunkova",
+        "end": "Trojmezí",
+        "rating": 4.0
+    },
+    {
+        "link": "https://en.mapy.cz/s/kanutolona",
+        "distance": 25.5,
+        "ascent": 1074,
+        "descent": 1027,
+        "difficulty": 1,
+        "start": "Horní lomná",
+        "end": "Malenovice",
+        "rating": 3.6
+    },
+    {
+        "link": "https://en.mapy.cz/s/kavuruguvu",
+        "distance": 5.4,
+        "ascent": 564,
+        "descent": 0,
+        "difficulty": 2,
+        "start": "Řeka",
+        "end": "Javorový",
+        "rating": 3.2
+    },
+    {
+        "link": "https://en.mapy.cz/s/fohohujemu",
+        "distance": 9.1,
+        "ascent": 557,
+        "descent": 243,
+        "difficulty": 1,
+        "start": "Červenohorské sedlo",
+        "end": "Šerák",
+        "rating": 3.9
+    },
+    {
+        "link": "https://en.mapy.cz/s/gabevoloca",
+        "distance": 14.7,
+        "ascent": 151,
+        "descent": 900,
+        "difficulty": 1,
+        "start": "Ovčárna",
+        "end": "Bělá pod Pradědem",
+        "rating": 4.1
+    }
+]
