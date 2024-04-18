@@ -4,3 +4,6 @@
 [submodule "via/projecta/weathercode"]
 	path = via/projecta/weathercode
 	url = https://gist.github.com/stellasphere/9490c195ed2b53c707087c8c2db4ec0c
+[submodule "cpp/projekt"]
+	path = cpp/projekt
+	url = git@github.com:ivoslovacek/OUMP.git
