@@ -1,0 +1,4 @@
+Došlo k chybě   at cv07.FileMiddleware.Invoke(HttpContext ctx) in /home/ivoslovacek/programming/vsb-fei-inf/cs2/cv07/cv07/FileMiddleware.cs:line 29
+   at cv07.TestMiddleware.Invoke(HttpContext ctx) in /home/ivoslovacek/programming/vsb-fei-inf/cs2/cv07/cv07/TestMiddleware.cs:line 21
+   at cv07.FirstMiddleware.Invoke(HttpContext ctx) in /home/ivoslovacek/programming/vsb-fei-inf/cs2/cv07/cv07/FirstMiddleware.cs:line 22
+   at cv07.ErrorHandlerMiddleware.Invoke(HttpContext ctx) in /home/ivoslovacek/programming/vsb-fei-inf/cs2/cv07/cv07/ErrorHandlerMiddleware.cs:line 16

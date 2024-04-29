@@ -1,0 +1,6 @@
+<h2>@ViewBag.Product.Name</h2>
+<p>@ViewBag.Product.Description</p>
+<div>@ViewBag.Product.Price kč</div>
+<img src="@ViewBag.Product.Photo"/>
+
+<a href="@Url.Action("AddToCart", new {id = ViewBag.Product.Id})">Add to cart</a>
