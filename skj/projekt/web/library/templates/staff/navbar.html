@@ -1,0 +1,8 @@
+{% if user.is_staff %}
+
+<div id="navbar" class="style-navbar" style="margin-top: 1em;">
+    <a href="{% url 'borrow_book' %}"><span> Vypůjčení knihy </span></a>
+    <a href="{% url 'return_book' %}"><span> Vrácení knihy </span></a>
+</div>
+
+{% endif %}

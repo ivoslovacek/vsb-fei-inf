@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}
+Smazání účtu
+{% endblock %}
+
+{% block content %}
+
+<div id="header" style="margin-bottom: 0.4em;"> Smazání účtu "{{user.username}}"</div>
+
+<div class="alert alert-danger" role="alert">
+    Chcete opravdu smazat svůj účet? Tahle akce je nevratná!
+</div>
+
+<form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="confirmation" class="form-label"> Pokud ano, napište "Chci smazat účet"</label>
+        <input type="text" class="form-control" name="confirmation">
+    </div>
+    <button type="submit" class="btn btn-danger">Smazat účet</button>
+</form>
+
+{% endblock %}

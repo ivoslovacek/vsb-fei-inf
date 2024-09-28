@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}
+Login
+{% endblock %}
+
+{% block content %}
+
+<div id="header" style="margin-bottom: 0.4em;"> Přihlášení </div>
+
+<form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="usernameInput" class="form-label">Uživatelské jméno</label>
+        <input type="username" class="form-control" name="username">
+    </div>
+    <div class="mb-3">
+        <label for="passwordInput" class="form-label">Heslo</label>
+        <input type="password" class="form-control" name="password">
+    </div>
+    <div class="mb-3">
+        <label for="floatingPlaintextInput">Nemáte účet? <a href="{% url "create_user"%}">Založte si ho.</a></label>
+    </div>
+    <button type="submit" class="btn btn-primary">Přihlásit se</button>
+</form>
+
+{% endblock %}

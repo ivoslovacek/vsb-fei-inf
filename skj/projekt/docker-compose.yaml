@@ -1,0 +1,35 @@
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    user: root
+    environment:
+      ACCEPT_EULA: "Y"  
+      SA_PASSWORD: ${DB_SA_PASSWORD}  
+      MSSQL_PID: Express 
+    entrypoint: ["/bin/bash", "/docker-entrypoint-initdb.d/entrypoint.sh"]
+    volumes:
+      - ./db_data:/var/opt/mssql/data
+      - ./db:/docker-entrypoint-initdb.d
+    networks:
+      - db_network
+    ports:
+      - "8002:1433"
+
+  web:
+    build: ./web/  
+    environment:
+      DB_HOST: db
+      DB_PASSWORD: ${DB_SA_PASSWORD}  
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
+    command: python manage.py runserver 0.0.0.0:8001
+    volumes:
+      - ./web/:/app
+    networks:
+      - db_network
+    depends_on:
+      - db
+    ports:
+      - "8001:8001"
+
+networks:
+  db_network: {}

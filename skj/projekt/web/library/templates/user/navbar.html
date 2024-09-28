@@ -1,0 +1,8 @@
+{% if user.id is not None %}
+
+<div id="navbar" class="style-navbar" style="margin-top: 1em; {% if user.is_staff %} margin-bottom: 0; {% endif %}">
+    <a href="{% url 'user_books_current' %}"><span> Aktualní výpůjčky </span></a>
+    <a href="{% url 'user_books_history' %}"><span> Historie výpůjček </span></a>
+</div>
+
+{% endif %}

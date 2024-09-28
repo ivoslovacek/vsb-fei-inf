@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}
+Profil
+{% endblock %}
+
+{% block content %}
+
+<div id="header" style="margin-bottom: 0.4em;"> Uživatelský profil </div>
+
+<div id="user-info">
+    <ul>
+        {% if osoba is not None %}
+            <li>
+                <span> Jméno: {{osoba.jmeno}} </span>
+            </li>
+            <li>
+                <span> Příjmení: {{osoba.prijmeni}} </span>
+            </li>
+        {% endif %}
+            <li>
+                <span> Uživatelské jméno: {{user.username}} </span>
+            </li>
+            {% if osoba is not None %}
+            <li>
+                <span> Uživatelské číslo: {{osoba.id_osoba}} </span>
+            </li>
+            <li>
+                <span> Datum narození: {{osoba.datum_narozeni}} </span>
+            </li>
+            {% if osoba.datum_umrti %}
+                <li>
+                    <span> Datum umrtí: {{osoba.datum_umri}} </span>
+                </li>
+            {% endif %}
+        {% endif %}
+        <li>
+            <span> Datum založení účtu: {{user.date_joined}} </span>
+        </li>
+        <li>
+            <span> Poslední přihlášení: {{user.last_login}} </span>
+        </li>
+    </ul>
+
+    <a href="{% url 'delete_user' %}"><button class="btn btn-danger">Smazat účet</button></a>
+</div>
+
+{% endblock %}

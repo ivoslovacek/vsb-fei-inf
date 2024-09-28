@@ -1,0 +1,38 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'library/books_display.css'%}">
+
+<div id="books-container">
+    <ul>
+        {% for book in books %}
+        <a href="{% url 'book_detail' %}?isbn={{book.id_knihy}}">
+        <li>
+            <img src="{% static "" %}covers/{{book.cover_url}}" class="book-cover">
+            <div class="book-name">
+                {{book.nazev}}
+            </div>
+            <div class="book-author">
+                {{book.jmeno}} {{book.prijmeni}}, Edice: {{book.edice}}
+            </div>
+            {% if user.id %}
+                {% if book.id_fknihy %}
+                    <div class="book-author">
+                        ID kopie: {{book.id_fknihy}}
+                    </div>
+                {% endif %}
+                {% if book.od_d %}
+                    <div class="book-author">
+                        Datum vypůjčky: {{book.od_d}}
+                    </div>
+                {% endif %}
+                {% if book.do_d %}
+                    <div class="book-author">
+                        Datum vrácení: {{book.do_d}}
+                    </div>
+                {% endif %}
+            {% endif %}
+        </li>
+        </a>
+        {% endfor %}
+    </ul>
+</div>

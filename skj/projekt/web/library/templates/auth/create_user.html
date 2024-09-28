@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}
+Vytvoření účtu
+{% endblock %}
+
+{% block content %}
+
+
+<div id="header" style="margin-bottom: 0.4em;"> Vytvoření nového účtu </div>
+
+<form method="post">
+    {% csrf_token %}
+
+    <div class="mb-3">
+        <label for="usernameInput" class="form-label">Uživatelské jméno</label>
+        <input type="username" class="form-control" name="username">
+    </div>
+    <div class="mb-3">
+        <label for="passwordInput" class="form-label">Heslo</label>
+        <input type="password" class="form-control" name="password">
+    </div>
+    <div class="mb-3">
+        <label for="passwordInput" class="form-label">Heslo (znovu)</label>
+        <input type="password" class="form-control" name="password_again">
+    </div>
+    <div class="mb-3">
+    <div class="mb-3">
+        <label for="personName" class="form-label">Křestní jméno</label>
+        <input type="text" class="form-control" name="first_name">
+    </div>
+    <div class="mb-3">
+        <label for="personName" class="form-label">Příjmení</label>
+        <input type="text" class="form-control" name="last_name">
+    </div>
+    <div class="mb-3">
+        <label for="personBirthDate" class="form-label">Datum narození</label>
+        <input type="date" class="form-control" name="birth_date">
+    </div>
+        <label for="floatingPlaintextInput">Máte již účet? <a href="{% url 'login_page' %}">Přihlašte se.</a></label>
+    </div>
+    <button type="submit" class="btn btn-primary">Vytvořit účet</button>
+</form>
+
+{% endblock %}

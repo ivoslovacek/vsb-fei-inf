@@ -1,0 +1,35 @@
+#book-details {
+    display: flex;
+    margin: 0; 
+    padding: 0;
+
+    .book-cover {
+        flex: 0 0 30%;
+        margin: 0 2.5%;
+
+        img {
+            max-width: 100%;
+            min-width: 100%;
+            aspect-ratio: 1;
+            margin: auto;
+        }
+    }
+
+    ul {
+        flex: 0 0 65%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            font-size: 0.8em;
+            max-width: 60%;
+        }
+
+        #book-author {
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 0.2em 0;
+        }
+    }
+}

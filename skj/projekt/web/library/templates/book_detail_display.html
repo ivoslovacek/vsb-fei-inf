@@ -1,0 +1,57 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'library/book_detail_display.css'%}">
+
+<div id="book-details">
+    <div class="book-cover">
+        <img src="{% static "" %}covers/{{book.cover_url}}">
+    </div>
+    <ul class="book-details-text">
+        <li id="book-author">
+            <span> {{book.nazev}} </span>
+        </li>
+        {% if book.a_name is not None %}
+            <li>
+                <span>  
+                    Autor:
+                    <a href="{% url "index" %}"> {{book.a_name}} {{book.a_surname}} </a>
+                </span>
+            </li>
+        {% else %}
+            <li>
+                <span>
+                    Autor: Neznamý autor
+                </span>  
+            </li>
+        {% endif %}
+        <li>
+            <span> Rok vydaní: {{book.rok_vydani}} </span>
+        </li>
+        <li>
+            <span> Edice: {{book.edice}} </span>
+        </li>
+        {% if book.genre is not None %}
+            <li>
+                <span> Žánr: {{book.genre}} </span>
+            </li>
+        {% endif %}
+        {% if book.language is not None %}
+            <li>
+                <span> Jazyk: {{book.language}} </span>
+            </li>
+                {% if book.t_name is not None %}
+                <li>
+                    <span> Překladatel: {{book.t_name}} {{book.t_surname}} </span>
+                </li>
+                {% endif %}
+        {% endif %}
+        <li>
+            <span> ISBN: {{book.id_knihy}} </span>
+        </li>
+        {% if book.copies %}
+        <li>
+            <span> ID Dostupných kopii: {{book.copies}} </span>
+        </li>
+        {% endif %}
+    </ul>
+</div>

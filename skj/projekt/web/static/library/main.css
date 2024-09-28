@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+  background: #282828;
+  color: #ebdbb2;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 24px;
+}
+html body {
+  color: inherit;
+  background: inherit;
+  margin: 0% 10%;
+}
+html a {
+  text-decoration-line: none;
+  color: #7c6f64;
+}
+html .style-navbar {
+  text-align: left;
+  position: relative;
+  height: 1rem;
+  margin: 2rem 0rem;
+  color: #7c6f64;
+}
+html .style-navbar span {
+  padding: 0;
+  padding-right: 1rem;
+}
+html #header {
+  font-weight: bold;
+}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}
+Vypůjčení
+{% endblock %}
+
+{% block content %}
+
+<div id="header" style="margin-bottom: 0.4em;"> VRÁCENÍ KNIHY </div>
+
+<form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="bookCopyID" class="form-label">ID Kopie knihy</label>
+        <input type="text" class="form-control" name="id_fknihy">
+    </div>
+    <button type="submit" class="btn btn-primary">Vrátit</button>
+</form>
+
+{% endblock %}

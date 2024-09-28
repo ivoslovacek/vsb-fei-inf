@@ -1,0 +1,27 @@
+#books-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#books-container ul a {
+  flex: 0 0 20%;
+  margin: 2% 2.5%;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+#books-container ul a li .book-cover {
+  max-width: 100%;
+  min-width: 100%;
+  aspect-ratio: 1;
+  margin: auto;
+}
+#books-container ul a li .book-name {
+  font-size: 0.8em;
+  text-align: center;
+}
+#books-container ul a li .book-author {
+  font-size: 0.65em;
+  text-align: center;
+}

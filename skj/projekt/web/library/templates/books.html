@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}
+Books
+{% endblock %}
+
+{% block content %}
+
+<div id="header">
+    <span> VŠECHNY KNIHY </span>
+</div>
+
+
+<form method="post">
+    {% csrf_token %}
+    <div class="mb-3" style="margin-top: 0.5em">
+        <input type="text" class="form-control" name="search_input" placeholder="Search for a book">
+    </div>
+</form>
+
+{% include "books_display.html" %}
+
+{% endblock %}
